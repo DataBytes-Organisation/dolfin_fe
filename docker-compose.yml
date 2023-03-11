@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+
+  frontend:
+    build:
+      context: .\frontend
+    image: clean-dash:$VERSION
+    container_name: optimiserfe
+    ports:
+      - "8080:8080"
+    environment:
+      - TARGET=$TARGET
+      - DB_SOURCE=$DB_SOURCE
+    restart: unless-stopped
+    

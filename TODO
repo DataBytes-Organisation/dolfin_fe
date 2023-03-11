@@ -1,0 +1,7 @@
+1. Figure out how to extract DDT, FBSource, STSource definitions 
+2. Use extracted definitions to instantiate:
+    a) Where to instantiate, what program ?
+    b) what to name instance?
+    c) name vars (INSTANCENAME.ddtparam) example: PUMP100.trip ...?
+    d) 
+3. Add stuff to dataBlock?

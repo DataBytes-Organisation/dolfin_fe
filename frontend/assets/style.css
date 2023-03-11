@@ -1,0 +1,28 @@
+#page-content {
+    padding: 2rem 1rem;
+  }
+
+#dropdown {
+  background: white;
+  color: teal;
+}
+
+#contractors-dd .Select, .Select div, .Select input,.Select span { 
+  background: rgb(232, 232, 235);  /*to change the background color of the options*/
+  color: black;  /*to change the color of the options */
+  font-family: Helvetica;
+  }
+
+.nav-link {
+  color: white;
+}
+
+.card-title {
+  color: grey;
+  font-size: medium;
+  font-family: Helvetica;
+}
+
+#button {
+  background-color:rgb(232, 232, 235);
+}
