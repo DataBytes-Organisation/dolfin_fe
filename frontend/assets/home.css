@@ -16,7 +16,6 @@
 #home_header {
     font-size:3vw;
     font-weight: bold;
-    font-family:Raleway, sans-serif;
     color:black;
     text-align:center;
 
@@ -24,25 +23,27 @@
 
 #home_info {
     font-size:1vw;
-    font-family:Raleway, sans-serif;
     text-align:center;
 }
 
 #home-submit-button {
-  --text-base: 215deg, 55%, 40%;
-  --text-hover: 189deg, 72%, 86%;
-  --shadow-start: 203deg, 100%, 87%;
-  --shadow-end: 230deg, 90%, 50%;
-  --shadow-inner: 230deg, 90%, 62%;
+  font-size:100%
+}
+
+#button {
+  --text-base: 277deg, 55%, 40%;
+  --text-hover: 307deg, 72%, 86%;
+  --shadow-start: 52deg, 100%, 72%;
+  --shadow-end: 282deg, 90%, 50%;
+  --shadow-inner: 277deg, 90%, 62%;
   all: unset;
   color: hsla(var(--text-base), 1);
-  font-family:Raleway, sans-serif;
-  font-weight: bold;
-  font-size:150%;
+  font: 700 1.125rem/1.2 Raleway, sans-serif;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   text-align: center;
   padding: 0.85em;
+  max-width: 100%;
   width: 12em;
   background: inherit;
   background-clip: padding-box;
@@ -53,7 +54,7 @@
   transition: 0.25s ease-out;
 }
 
-#home-submit-button:before, #home-submit-button:after {
+#button::before, button::after {
   content: "";
   border-radius: inherit;
   transition: inherit;
@@ -62,7 +63,7 @@
   pointer-events: none;
 }
 
-#home-submit-button:before {
+#button::before {
   inset: -0.2em;
   z-index: -1;
   background: linear-gradient(hsla(var(--shadow-start), 1), hsla(var(--shadow-end), 1));
@@ -72,19 +73,19 @@
   opacity: 0;
 }
 
-#home-submit-button:after {
+#button::after {
   box-shadow: inset 0 0 0 1px #fff, 0 0 0 4px rgba(255, 255, 255, 0.7), 1px 1px 0 4px #fff;
   mix-blend-mode: overlay;
   opacity: 0;
 }
 
-#home-submit-button:hover, #home-submit-button:focus {
+#button:hover, button:focus {
   color: hsla(var(--text-hover), 1);
   border-color: transparent;
   box-shadow: inset 0 1.4em 0 hsla(var(--shadow-inner), 0.1), inset 0 0 1.4em hsla(var(--shadow-inner), 0.32), 0 1px 1px hsla(var(--shadow-inner), 0.32);
 }
 
-#home-submit-button:hover::before, #home-submit-button:hover::after, #home-submit-button:focus::before, #home-submit-button:focus::after {
+#button:hover::before, button:hover::after, button:focus::before, button:focus::after {
   transform: none;
   opacity: 1;
 }
