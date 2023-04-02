@@ -10,7 +10,8 @@
 
 #carousel {
   padding: 0% 5%;
-  width: 200%;
+  width: 100%;
+  transform: translate(20%,-100%);
 }
 
 #home_header {
