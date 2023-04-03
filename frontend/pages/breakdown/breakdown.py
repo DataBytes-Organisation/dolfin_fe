@@ -4,4 +4,4 @@ import dash_bootstrap_components as dbc
 from pages.breakdown import breakdown_callbacks
 
 
-#CODE HAS BEEN DEVELOPED BY JOSH DANG - NEEDS TO BE INTEGRATED FROM HIS IPYN FILE
+layout = dbc.Container()#CODE HAS BEEN DEVELOPED BY JOSH DANG - NEEDS TO BE INTEGRATED FROM HIS IPYN FILE
