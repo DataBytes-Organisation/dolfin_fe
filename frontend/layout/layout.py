@@ -1,5 +1,5 @@
-import dash_html_components as html
-import dash_core_components as dcc
+from dash import html
+from dash import dcc
 
 from layout.sidebar.sidebar import sidebar
 from layout.navbar.navbar import navbar,logo

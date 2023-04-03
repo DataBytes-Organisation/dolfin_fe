@@ -1,21 +1,21 @@
-import dash_html_components as html
-import dash_core_components as dcc
+from dash import html
+from dash import dcc
 import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
 from pages.dashboard import dashboard_callbacks
 
 # TABLE --- ONLY SAMPLE, NEEDS TO BE ALTERED WHEN WE CAN CONNECT TO OUR DATA API
-table = go.Figure(data=[go.Table(
-    header=dict(values=['A Scores', 'B Scores'],
-                line_color='darkslategray',
-                fill_color='lightskyblue',
-                align='left'),
-    cells=dict(values=[[100, 90, 80, 90], # 1st column 
-                       [95, 85, 75, 95]], # 2nd column
-               line_color='darkslategray',
-               fill_color='lightcyan',
-               align='left'))
-])
+# table = go.Figure(data=[go.Table(
+#     header=dict(values=['A Scores', 'B Scores'],
+#                 line_color='darkslategray',
+#                 fill_color='lightskyblue',
+#                 align='left'),
+#     cells=dict(values=[[100, 90, 80, 90], # 1st column 
+#                        [95, 85, 75, 95]], # 2nd column
+#                line_color='darkslategray',
+#                fill_color='lightcyan',
+#                align='left'))
+# ])
 
 layout = dbc.Container([
 #PIE CHART
@@ -50,6 +50,6 @@ layout = dbc.Container([
 
     ],
 
-    dashboard_callbacks,
-    table,
+    #dashboard_callbacks,
+    #table,
 )
