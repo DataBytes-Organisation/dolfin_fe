@@ -95,8 +95,8 @@ layout = dbc.Container(
             [
                 dbc.Carousel(
                 items=[
-                    {"key": "1", "src": "/assets/images/plant.jpg"},
-                    {"key": "2", "src": "/assets/images/pig.jpg"},
+                    {"key": "1", "src": "/assets/images/welcome.png"},
+                    {"key": "2", "src": "/assets/images/welcome2.png"},
                 ],
                 controls=True,
                 indicators=True,

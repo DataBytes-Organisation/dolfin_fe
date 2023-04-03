@@ -1,3 +1,5 @@
+@import url('//fonts.googleapis.com/css?family=Varela+Round');
+
 #home {
   display:inline-flex;
   padding: 10% 0%;
@@ -15,10 +17,13 @@
 }
 
 #home_header {
+    font-family:'Varela Round';
     font-size:3vw;
-    font-weight: bold;
-    color:black;
+    color: #2549c0 !important;
     text-align:center;
+    background-color: rgb(180, 246, 255);
+    border-radius: 10%;
+    padding:5%;
 
 }
 

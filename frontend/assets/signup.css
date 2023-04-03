@@ -11,8 +11,7 @@
 
 #carousel {
   padding: 0% 5%;
-  width: 150%;
-  transform:translate(20%, 20%);
+  transform:translate(10%, 0%);
 }
 
 #submit_header {
