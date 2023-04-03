@@ -3,19 +3,6 @@ from dash import html
 from dash_bootstrap_components._components.Container import Container
 
 navbar = dbc.Navbar(
-    # dbc.Container(
-    #     [
-    #         html.A(
-    #             # Use row and col to control vertical alignment of logo / brand
-
-    #                 dbc.Col(html.Img(src="/assets/images/logo_small.png", height="50px")),
-
-    #             #href="https://plotly.com", CHANGE TO DOLFIN HOME ADDRESS
-    #             style={"textDecoration": "none"},
-    #             id="navbar-logo"
-    #         ),
-    #     ],
-    # ),
     color="#2d7ded",
     dark=True,
     id="navbar",
@@ -26,7 +13,7 @@ logo = html.Div(
                 # Use row and col to control vertical alignment of logo / brand
 
                     dbc.Col(html.Img(src="/assets/images/logo_small.png", height="100px")),
-                #href="https://plotly.com", CHANGE TO DOLFIN HOME ADDRESS
+                href="https://dolfinsolutions.com",
                 style={"textDecoration": "none"},
                 id="navbar-logo"
             ),
