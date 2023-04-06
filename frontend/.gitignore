@@ -53,4 +53,3 @@ __pycache__/
 cache-directory/
 venv/
 
-*.csv
