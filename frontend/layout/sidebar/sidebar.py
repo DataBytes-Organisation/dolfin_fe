@@ -3,6 +3,7 @@ import dash_html_components as html
 
 from utils.constants import home_page_location
 from utils.constants import signup_location
+from utils.constants import signin_location
 from utils.constants import dashboard_location
 from utils.constants import breakdown_location
 
@@ -66,6 +67,7 @@ sidebar = html.Div(
                 [
                     dbc.NavLink("Home", href=home_page_location, active="exact", className="nav-link"),
                     dbc.NavLink("Sign Up", href=signup_location, active="exact", className="nav-link"),
+                    dbc.NavLink("Sign In", href=signin_location, active="exact", className="nav-link"),
                     dbc.NavLink("Dashboard", href=dashboard_location, active="exact", className="nav-link"),
                     dbc.NavLink("Financial Breakdown", href=breakdown_location, active="exact", className="nav-link"),
                 ],
