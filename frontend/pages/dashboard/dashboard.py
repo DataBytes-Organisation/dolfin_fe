@@ -12,20 +12,14 @@ layout = dbc.Container([
 
     dbc.Row([
         html.H1("YOUR SPENDING BREAKDOWN",
-                        className='text-center text-primary mb-4'),  
+                        className='text-center text-primary mb-4', id="title"),  
 
-        html.H3("MONTHLY SPENDING",
+        html.H3("YEARLY SPENDING CATEGORIES",
                         className='text-center text-primary mb-4'),
  
         dbc.Row([
         
-                dbc.Col(html.P('Lorem ipsum dolor sit amet, consectetur adipiscing elit,\
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris\
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in\
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia\
-                        deserunt mollit anim id est laborum.', className='text-right text-primary, mb-4'),
+                dbc.Col(html.P('Chart shows categories of spending over the selected year.', className='text-right text-primary, mb-4'),
                     width = {'size': 3,'offset' : 0}),
                 dbc.Col([
                         dcc.Dropdown(id = 'piechart_dd', multi = False, placeholder = 'Select a year',

@@ -7,6 +7,9 @@
 #submit_col1 {
   padding: 10% 5%;
   margin-left: -20%;
+  background-color: rgb(183, 238, 253);
+  border-radius:20px;
+  box-shadow:8px 8px 8px 8px #888888;
 }
 
 #carousel {
@@ -18,10 +21,9 @@
     font-size:2vw;
     font-weight: bold;
     font-family:Raleway, sans-serif;
-    color:rgb(33, 71, 155);
+    color:#2549c0;
     text-align:center;
-    text-shadow: 2px 2px 8px #918e8e;
-    transform: translate(0%,-70%);
+    transform: translate(0%,-30%);
 
 }
 
@@ -53,7 +55,7 @@
   border-radius: 2em;
   cursor: pointer;
   transition: 0.25s ease-out;
-  transform: translate(-50%, -200%);
+  transform: translate(-50%, -350%);
 }
 
 #submit-button:before, #home-submit-button:after {
