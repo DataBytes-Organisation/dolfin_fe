@@ -1,0 +1,168 @@
+{
+  "Resources": {
+    "DolfinFrontEndCfnLoadBalancerD0322F7C": {
+      "Type": "AWS::ElasticLoadBalancingV2::LoadBalancer",
+      "Properties": {
+        "LoadBalancerAttributes": [
+          {
+            "Key": "deletion_protection.enabled",
+            "Value": "false"
+          }
+        ],
+        "Scheme": "internet-facing",
+        "SecurityGroups": [
+          {
+            "Fn::GetAtt": [
+              "DolfinFrontEndCfnLoadBalancerSecurityGroup920A18EF",
+              "GroupId"
+            ]
+          }
+        ],
+        "Subnets": [
+          "subnet-04b64adf3b72e6413",
+          "subnet-0e2cee903cabdf7a9",
+          "subnet-01016f5d28ad899d7"
+        ],
+        "Type": "application"
+      },
+      "Metadata": {
+        "aws:cdk:path": "DolfinFrontend/DolfinFrontEndCfnLoadBalancer/Resource"
+      }
+    },
+    "DolfinFrontEndCfnLoadBalancerSecurityGroup920A18EF": {
+      "Type": "AWS::EC2::SecurityGroup",
+      "Properties": {
+        "GroupDescription": "Automatically created Security Group for ELB DolfinFrontendDolfinFrontEndCfnLoadBalancer50CE641E",
+        "SecurityGroupEgress": [
+          {
+            "CidrIp": "255.255.255.255/32",
+            "Description": "Disallow all traffic",
+            "FromPort": 252,
+            "IpProtocol": "icmp",
+            "ToPort": 86
+          }
+        ],
+        "VpcId": "vpc-0edabb98d2e56eb59"
+      },
+      "Metadata": {
+        "aws:cdk:path": "DolfinFrontend/DolfinFrontEndCfnLoadBalancer/SecurityGroup/Resource"
+      }
+    },
+    "DolfinFrontEndCfnApplication": {
+      "Type": "AWS::ElasticBeanstalk::Application",
+      "Properties": {
+        "ApplicationName": "DolfinFrontEnd-8deed838-b3ad-427a-b737-cc0a592febe9",
+        "Description": "DolfinFrontEnd description"
+      },
+      "Metadata": {
+        "aws:cdk:path": "DolfinFrontend/DolfinFrontEndCfnApplication"
+      }
+    },
+    "DolfinFrontEndAppVersion": {
+      "Type": "AWS::ElasticBeanstalk::ApplicationVersion",
+      "Properties": {
+        "ApplicationName": "DolfinFrontEnd-8deed838-b3ad-427a-b737-cc0a592febe9",
+        "SourceBundle": {
+          "S3Bucket": "cdk-hnb659fds-assets-246885390628-ap-southeast-2",
+          "S3Key": "66c3fa2b10494a2859ba6df2997727179ebdf9eb79df3f1d047bf44ae4ff372d.zip"
+        }
+      },
+      "DependsOn": [
+        "DolfinFrontEndCfnApplication"
+      ],
+      "Metadata": {
+        "aws:cdk:path": "DolfinFrontend/DolfinFrontEndAppVersion"
+      }
+    },
+    "DolfinFrontEndCfnEnvironment": {
+      "Type": "AWS::ElasticBeanstalk::Environment",
+      "Properties": {
+        "ApplicationName": "DolfinFrontEnd-8deed838-b3ad-427a-b737-cc0a592febe9",
+        "CNAMEPrefix": "DolfinFrontEndcname",
+        "Description": "description",
+        "EnvironmentName": "DolfinFrontEndenvironment",
+        "OptionSettings": [
+          {
+            "Namespace": "aws:autoscaling:launchconfiguration",
+            "OptionName": "InstanceType",
+            "Value": "t3.small"
+          },
+          {
+            "Namespace": "aws:autoscaling:launchconfiguration",
+            "OptionName": "IamInstanceProfile",
+            "Value": "aws-elasticbeanstalk-ec2-role"
+          }
+        ],
+        "SolutionStackName": "64bit Amazon Linux 2 v3.5.1 running Python 3.8",
+        "Tier": {
+          "Name": "WebServer",
+          "Type": "Standard"
+        },
+        "VersionLabel": {
+          "Ref": "DolfinFrontEndAppVersion"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "DolfinFrontend/DolfinFrontEndCfnEnvironment"
+      }
+    },
+    "DolfinFrontEndAliasRecord7AF48DE1": {
+      "Type": "AWS::Route53::RecordSet",
+      "Properties": {
+        "Name": "dolfinsolutions.com.",
+        "Type": "A",
+        "AliasTarget": {
+          "DNSName": "DolfinFrontEndcname.ap-southeast-2.elasticbeanstalk.com",
+          "HostedZoneId": "Z2PCDNR3VC2G1N"
+        },
+        "HostedZoneId": "Z0601941GO4P28I68K85"
+      },
+      "Metadata": {
+        "aws:cdk:path": "DolfinFrontend/DolfinFrontEndAliasRecord/Resource"
+      }
+    },
+    "CDKMetadata": {
+      "Type": "AWS::CDK::Metadata",
+      "Properties": {
+        "Analytics": "v2:deflate64:H4sIAAAAAAAA/1WPQU/DMAyFf8vuqdkWIc4rQlw4oFbiOrmpGVmzpIqdoanKfyddQaIn28+f/Pz2sHuC7Qa/uTL9UDnbwdQKmkEV6TixPiIzCcNhLoo11MkMJDUyKXLIYo0L2Hfo0BvrT9c9TIdxdNag2ODfyq6+7yiq58/VnBWZQrdkUrRye40hjTOzEvKfS0foWdANMBXmn4Vajx8U+Vd98Vcbg7+Ql6zKMaFHXb5ryITYz8DStSQ5q3vAEv1UQqiGOKRoaIGWPqv3m3wF/6BhtwW9ObO1VUxe7IWgWeoPUADweE8BAAA="
+      },
+      "Metadata": {
+        "aws:cdk:path": "DolfinFrontend/CDKMetadata/Default"
+      }
+    }
+  },
+  "Parameters": {
+    "BootstrapVersion": {
+      "Type": "AWS::SSM::Parameter::Value<String>",
+      "Default": "/cdk-bootstrap/hnb659fds/version",
+      "Description": "Version of the CDK Bootstrap resources in this environment, automatically retrieved from SSM Parameter Store. [cdk:skip]"
+    }
+  },
+  "Rules": {
+    "CheckBootstrapVersion": {
+      "Assertions": [
+        {
+          "Assert": {
+            "Fn::Not": [
+              {
+                "Fn::Contains": [
+                  [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                  ],
+                  {
+                    "Ref": "BootstrapVersion"
+                  }
+                ]
+              }
+            ]
+          },
+          "AssertDescription": "CDK bootstrap stack version 6 required. Please run 'cdk bootstrap' with a recent version of the CDK CLI."
+        }
+      ]
+    }
+  }
+}
