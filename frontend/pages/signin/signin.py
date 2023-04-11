@@ -2,23 +2,7 @@ import dash_html_components as html
 import dash_core_components as dcc
 import dash_bootstrap_components as dbc
 from dash import dcc, html
-from pages.signup import signup_callbacks
-
-fname = html.Div(
-    [
-        dbc.Label("First Name", html_for="fname"),
-        dbc.Input(type="text", id="fname", placeholder="Enter first name"),
-        html.Br()
-    ],
-)
-
-lname = html.Div(
-    [
-        dbc.Label("Last Name", html_for="lname"),
-        dbc.Input(type="text", id="lname", placeholder="Enter last name"),
-        html.Br()
-    ],
-)
+from pages.signin import signin_callbacks
 
 email_input = html.Div(
     [
@@ -39,19 +23,8 @@ password_input = html.Div(
         html.Br()
     ]
 )
-password_input = html.Div(
-    [
-        dbc.Label("Password", html_for="password"),
-        dbc.Input(
-            type="password",
-            id="password",
-            placeholder="Re-enter password",
-        ),
-        html.Br()
-    ]
-)
 
-form = dbc.Form([fname, lname, email_input, password_input])
+form = dbc.Form([email_input, password_input])
 
 layout = dbc.Container(
     [
@@ -59,7 +32,7 @@ layout = dbc.Container(
     [
     dbc.Col(
             [
-                html.H1("Create Your Account:", id="submit_header"),
+                html.H1("Login To Your Account:", id="submit_header"),
                 html.Hr(),
                 dbc.Form([form]),
             ],
@@ -90,7 +63,7 @@ dbc.Container(
     [
     dbc.Col(
             [
-            html.Button('JOIN NOW!', id='submit-button', n_clicks=0),
+            html.Button('SIGN IN', id='submit-button', n_clicks=0),
             ]
     )
     ]
