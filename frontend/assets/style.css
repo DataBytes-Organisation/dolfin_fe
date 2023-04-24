@@ -3,6 +3,17 @@
   padding: 10% 0%;
 }
 
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  width: 100%;
+  margin-top: auto;
+}
+
 #home_col1 {
   padding: 10% 5%;
   margin-left: -20%;
