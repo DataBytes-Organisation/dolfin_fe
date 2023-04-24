@@ -3,7 +3,7 @@ import dash_core_components as dcc
 
 from layout.sidebar.sidebar import sidebar
 from layout.navbar.navbar import navbar, logo
-from components.footer import Footer  # Import the Footer component
+#from components.footer import Footer  # Import the Footer component
 
 content = html.Div(id="page-content", className="content-container")
 
@@ -12,7 +12,7 @@ page_container = html.Div(
     [
         sidebar,
         content,
-        Footer(),  # Add the Footer component
+        #Footer(),  # Add the Footer component
     ],
     className="page-container",
 )

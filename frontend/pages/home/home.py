@@ -1,7 +1,7 @@
 import dash_html_components as html
 import dash_bootstrap_components as dbc
 from pages.home import home_callbacks
-from components.footer import Footer
+#from components.footer import Footer
 
 
 
@@ -49,4 +49,4 @@ main_content = dbc.Container(
     ]
 )
 
-layout = dbc.Container([main_content, Footer()])
+layout = dbc.Container([main_content])
