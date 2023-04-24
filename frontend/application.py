@@ -1,3 +1,4 @@
+
 from app import app, application
 import dash_bootstrap_components as dbc
 import dash_html_components as html
@@ -7,15 +8,11 @@ from utils.constants import signup_location
 from utils.constants import signin_location
 from utils.constants import dashboard_location
 from utils.constants import breakdown_location
-from utils.constants import news_location
-
 from pages.home import home
 from pages.signup import signup
 from pages.signin import signin
 from pages.dashboard import dashboard
 from pages.breakdown import breakdown
-from pages.news import news
-
 from layout.sidebar.sidebar_callbacks import toggle_collapse, toggle_classname
 
 @app.callback(
@@ -34,11 +31,6 @@ def render_page_content(pathname):
         return dashboard.layout
     if pathname == breakdown_location:
         return breakdown.layout
-    if pathname == news_location:
-        return news.layouts
-
-        
-  
     
     return dbc.Jumbotron(
         [
