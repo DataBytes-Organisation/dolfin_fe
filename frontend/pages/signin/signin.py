@@ -64,6 +64,7 @@ dbc.Container(
     dbc.Col(
             [
             html.Button('SIGN IN', id='submit-button', n_clicks=0),
+            html.Span(id="example-output2", style={"verticalAlign": "middle"}),
             ]
     )
     ]
