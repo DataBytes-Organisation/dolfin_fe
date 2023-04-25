@@ -5,7 +5,7 @@ import pandas as pd
 import plotly
 import plotly.express as px
 
-df = pd.read_csv('pages/dashboard/dummies.csv')
+df = pd.read_csv('pages/dashboard/processed_user_transaction_data.csv')
 
 
 @app.callback(
@@ -13,12 +13,12 @@ df = pd.read_csv('pages/dashboard/dummies.csv')
      Input('piechart_dd', 'value')
 )
 def update_graph(year):
-    dff = df[df.iloc[:,3]==year]
+    dff = df[df.iloc[:,8]==year]
     fig_pie = px.pie(
         data_frame = dff,
-        names = "Categories",
-        values = 'Amount',
+        names = "category",
+        values = 'amount',
         hole = .3,
-        labels = 'Categories'
+        labels = 'category'
     )
     return fig_pie
