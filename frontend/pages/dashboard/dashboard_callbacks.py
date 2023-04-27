@@ -5,7 +5,8 @@ import pandas as pd
 import plotly
 import plotly.express as px
 
-df = pd.read_csv('pages/dashboard/processed_user_transaction_data.csv')
+#The data for the dashboard will need to be positive values
+df = pd.read_csv('pages/dashboard/processed_user_outgoing_transaction_data.csv')
 
 
 @app.callback(

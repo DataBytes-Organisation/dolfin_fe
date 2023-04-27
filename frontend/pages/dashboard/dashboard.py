@@ -6,7 +6,7 @@ import pandas as pd
 import dash_table
 
 
-df = pd.read_csv('pages/dashboard/processed_user_transaction_data.csv')
+df = pd.read_csv('pages/dashboard/processed_user_outgoing_transaction_data.csv')
 columns = [{"name": i, "id": i} for i in df.columns]
 columns[3]["name"] = "Amount"
 columns[7]["name"] = "Category"
