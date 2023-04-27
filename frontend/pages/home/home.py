@@ -11,7 +11,7 @@ main_content = dbc.Container(
             [
                 dbc.Col(
                     [
-                        html.H1("Dont DOLFIN TODAY AND START SAVING!", id="home_header"),
+                        html.H1("JOIN DOLFIN TODAY AND START SAVING!", id="home_header"),
                         html.Hr(),
                         html.P(
                             "Simply create an account, link your bank details and begin!",
