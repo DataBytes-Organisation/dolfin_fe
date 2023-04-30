@@ -1,5 +1,3 @@
-import dash_html_components as html
-import dash_core_components as dcc
 import dash_bootstrap_components as dbc
 from dash import dcc, html
 from pages.signup import signup_callbacks
@@ -16,6 +14,14 @@ lname = html.Div(
     [
         dbc.Label("Last Name", html_for="lname"),
         dbc.Input(type="text", id="lname", placeholder="Enter last name"),
+        html.Br()
+    ],
+)
+
+nname = html.Div(
+    [
+        dbc.Label("Nick Name", html_for="nname"),
+        dbc.Input(type="text", id="nname", placeholder="Enter display name"),
         html.Br()
     ],
 )
@@ -51,7 +57,7 @@ password_input = html.Div(
     ]
 )
 
-form = dbc.Form([fname, lname, email_input, password_input])
+form = dbc.Form([fname, lname, nname, email_input, password_input])
 
 layout = dbc.Container(
     [
@@ -91,6 +97,7 @@ dbc.Container(
     dbc.Col(
             [
             html.Button('JOIN NOW!', id='submit-button', n_clicks=0),
+            html.Span(id="example-output", style={"verticalAlign": "middle"}),
             ]
     )
     ]

@@ -13,6 +13,8 @@ columns[7]["name"] = "Category"
 columns[8]["name"] = "Year"
 columns[9]["name"] = "Month"
 
+# test = pd.read_json(dashboard_callbacks.get_transaction_data())
+
 layout = dbc.Container([
 
     dbc.Row([
@@ -21,6 +23,8 @@ layout = dbc.Container([
 
         html.H3("YEARLY SPENDING CATEGORIES",
                         className='text-center text-primary mb-4'),
+        
+        # html.H1(test[0]),
  
         dbc.Row([
         
