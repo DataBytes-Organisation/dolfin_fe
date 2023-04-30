@@ -9,7 +9,6 @@ class API:
     is the environment > .env and/or environment .env.development file(s)"""
     def __init__(self) -> None:
         self.base_url = base_api_url
-        print(self.base_url)
     
     def sign_up(self, fname: str, lname: str, nname: str, email: str, password: str) -> dict:
         try:
@@ -31,7 +30,6 @@ class API:
             response = requests.request("POST", url, headers=headers, data=payload)
             if response.status_code > 299:
                 raise Exception("HTTP {response.statuscode} Bad Status Code")
-            #print(response.json())
             return json.loads(response.text)
         
         except Exception as e:
@@ -39,17 +37,17 @@ class API:
     
     def sign_in(self, email: str, password: str) -> dict:
         try:
-    
             url = self.base_url+"/auth/account/user?email="+email+"&password="+password
 
-            payload = {}
-            headers = {}
-
-            response = requests.request("GET", url, headers=headers, data=payload)
+            response = requests.request("GET", url, headers={}, data={})
             if response.status_code > 299:
-                raise Exception("HTTP {response.statuscode} Bad Status Code")
+                raise Exception(f"The Sign in Request has failed, likely due to issue with email or password")
             return json.loads(response.text)
         
         except Exception as e:
-            raise Exception(f"Sign in for user : {email} failed")
+            raise Exception(f"Sign in for user : {email} failed, likely due to backend being down")
+    
+    def refresh_token_auth(self, email: str, refresh_token: str) -> dict:
+        raise NotImplementedError()
+    
         
