@@ -7,7 +7,8 @@ from aws_cdk import (
     aws_route53,
     aws_ec2,
     aws_route53_targets as targets,
-    aws_s3_assets
+    aws_s3_assets,
+    aws_s3 as s3
 )
 from constructs import Construct
 
@@ -15,18 +16,19 @@ class InfrastructureStack(Stack):
 
     def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
+        stage = "PROD"
         self.name = "DolfinFrontEnd"
-        self.domain_name = "dolfinsolutions.com"
-        self.hosted_zone_id = "Z0601941GO4P28I68K85"
-        self.ssl_certificate_arn = "arn:aws:acm:ap-southeast-2:246885390628:certificate/c0d7d733-879a-463b-8723-0dd7f4f65542"
+        self.domain_name = "dolfintechnology.com"
+        self.hosted_zone_id = "Z034086312CTYRFF6XA1M"
+        self.ssl_certificate_arn = "arn:aws:acm:ap-southeast-2:909874321825:certificate/7284913e-4843-4d30-88e7-d0b55f7ecb4f"
 
         source_location = aws_s3_assets.Asset(self, f"{self.name}SourceZip",
-            path=os.path.join(os.getcwd(), 'app.zip')
+            path=os.path.join(os.getcwd(), 'app.zip'),
         )
 
         vpc = aws_ec2.Vpc.from_lookup(self, "VPC", is_default=True) # vpc_id=xyz can be used here if not want to use default vpc
 
-        app_load_balancer = elb2.ApplicationLoadBalancer(self, f"{self.name}CfnLoadBalancer", vpc=vpc, internet_facing=True)
+        #app_load_balancer = elb2.ApplicationLoadBalancer(self, f"{self.name}CfnLoadBalancer", vpc=vpc, internet_facing=True)
 
         # ssl_certificate = elb2.ListenerCertificate.from_arn(self.ssl_certificate_arn)
 
@@ -38,7 +40,7 @@ class InfrastructureStack(Stack):
         #     open=True
         # )
 
-        cfn_application = elasticbeanstalk.CfnApplication(self, f"{self.name}CfnApplication",
+        cfn_application = elasticbeanstalk.CfnApplication(self, f"{self.name}CfnApplication{stage}",
             application_name=f"{self.name}-{uuid4()}",
             description=f"{self.name} description",
             resource_lifecycle_config=None
@@ -49,7 +51,7 @@ class InfrastructureStack(Stack):
             s3_key=source_location.s3_object_key
         )
 
-        app_version = elasticbeanstalk.CfnApplicationVersion(self, f"{self.name}AppVersion",
+        app_version = elasticbeanstalk.CfnApplicationVersion(self, f"{self.name}AppVersion{stage}",
             application_name=cfn_application.application_name,
             source_bundle= source_bundle_property
         )
@@ -58,13 +60,13 @@ class InfrastructureStack(Stack):
             domain_name=self.domain_name    
         )
 
-        cfn_environment = elasticbeanstalk.CfnEnvironment(self, f"{self.name}CfnEnvironment",
+        cfn_environment = elasticbeanstalk.CfnEnvironment(self, f"{self.name}CfnEnvironment{stage}",
             application_name=cfn_application.application_name,
 
             # the properties below are optional
             cname_prefix=f"{self.name}cname",
             description="description",
-            environment_name=f"{self.name}environment",
+            environment_name=f"{self.name}environment{stage}",
             # operations_role="operationsRole",
             option_settings=[elasticbeanstalk.CfnEnvironment.OptionSettingProperty(
                 
@@ -73,7 +75,7 @@ class InfrastructureStack(Stack):
 
                 # the properties below are optional
                 #resource_name="resourceName",
-                value="t3.small"
+                value="t3.micro"
             ),
             elasticbeanstalk.CfnEnvironment.OptionSettingProperty(
                 

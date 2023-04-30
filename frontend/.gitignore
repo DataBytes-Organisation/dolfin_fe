@@ -48,6 +48,7 @@ Thumbs.db
 *.mov
 *.wmv
 
+build/
 .vscode/
 __pycache__/
 cache-directory/

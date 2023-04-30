@@ -1,3 +1,15 @@
-/venv
-*.pyc
+*.swp
+package-lock.json
 __pycache__
+.pytest_cache
+.venv
+*.egg-info
+/venv
+venv/
+# CDK asset staging directory
+.cdk.staging
+cdk.out/*
+settings.py
+
+DolfinFrontend.assets.json
+tree.json
