@@ -76,91 +76,13 @@
               "version": "2.17.0"
             }
           },
-          "DolfinFrontEndCfnLoadBalancer": {
-            "id": "DolfinFrontEndCfnLoadBalancer",
-            "path": "DolfinFrontend/DolfinFrontEndCfnLoadBalancer",
-            "children": {
-              "Resource": {
-                "id": "Resource",
-                "path": "DolfinFrontend/DolfinFrontEndCfnLoadBalancer/Resource",
-                "attributes": {
-                  "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::LoadBalancer",
-                  "aws:cdk:cloudformation:props": {
-                    "loadBalancerAttributes": [
-                      {
-                        "key": "deletion_protection.enabled",
-                        "value": "false"
-                      }
-                    ],
-                    "scheme": "internet-facing",
-                    "securityGroups": [
-                      {
-                        "Fn::GetAtt": [
-                          "DolfinFrontEndCfnLoadBalancerSecurityGroup920A18EF",
-                          "GroupId"
-                        ]
-                      }
-                    ],
-                    "subnets": [
-                      "subnet-04b64adf3b72e6413",
-                      "subnet-0e2cee903cabdf7a9",
-                      "subnet-01016f5d28ad899d7"
-                    ],
-                    "type": "application"
-                  }
-                },
-                "constructInfo": {
-                  "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.CfnLoadBalancer",
-                  "version": "2.17.0"
-                }
-              },
-              "SecurityGroup": {
-                "id": "SecurityGroup",
-                "path": "DolfinFrontend/DolfinFrontEndCfnLoadBalancer/SecurityGroup",
-                "children": {
-                  "Resource": {
-                    "id": "Resource",
-                    "path": "DolfinFrontend/DolfinFrontEndCfnLoadBalancer/SecurityGroup/Resource",
-                    "attributes": {
-                      "aws:cdk:cloudformation:type": "AWS::EC2::SecurityGroup",
-                      "aws:cdk:cloudformation:props": {
-                        "groupDescription": "Automatically created Security Group for ELB DolfinFrontendDolfinFrontEndCfnLoadBalancer50CE641E",
-                        "securityGroupEgress": [
-                          {
-                            "cidrIp": "255.255.255.255/32",
-                            "description": "Disallow all traffic",
-                            "ipProtocol": "icmp",
-                            "fromPort": 252,
-                            "toPort": 86
-                          }
-                        ],
-                        "vpcId": "vpc-0edabb98d2e56eb59"
-                      }
-                    },
-                    "constructInfo": {
-                      "fqn": "aws-cdk-lib.aws_ec2.CfnSecurityGroup",
-                      "version": "2.17.0"
-                    }
-                  }
-                },
-                "constructInfo": {
-                  "fqn": "aws-cdk-lib.aws_ec2.SecurityGroup",
-                  "version": "2.17.0"
-                }
-              }
-            },
-            "constructInfo": {
-              "fqn": "aws-cdk-lib.aws_elasticloadbalancingv2.ApplicationLoadBalancer",
-              "version": "2.17.0"
-            }
-          },
-          "DolfinFrontEndCfnApplication": {
-            "id": "DolfinFrontEndCfnApplication",
-            "path": "DolfinFrontend/DolfinFrontEndCfnApplication",
+          "DolfinFrontEndCfnApplicationPROD": {
+            "id": "DolfinFrontEndCfnApplicationPROD",
+            "path": "DolfinFrontend/DolfinFrontEndCfnApplicationPROD",
             "attributes": {
               "aws:cdk:cloudformation:type": "AWS::ElasticBeanstalk::Application",
               "aws:cdk:cloudformation:props": {
-                "applicationName": "DolfinFrontEnd-8deed838-b3ad-427a-b737-cc0a592febe9",
+                "applicationName": "DolfinFrontEnd-26f5b5a1-b54e-4c1b-8b6e-dae170bb7809",
                 "description": "DolfinFrontEnd description"
               }
             },
@@ -169,16 +91,16 @@
               "version": "2.17.0"
             }
           },
-          "DolfinFrontEndAppVersion": {
-            "id": "DolfinFrontEndAppVersion",
-            "path": "DolfinFrontend/DolfinFrontEndAppVersion",
+          "DolfinFrontEndAppVersionPROD": {
+            "id": "DolfinFrontEndAppVersionPROD",
+            "path": "DolfinFrontend/DolfinFrontEndAppVersionPROD",
             "attributes": {
               "aws:cdk:cloudformation:type": "AWS::ElasticBeanstalk::ApplicationVersion",
               "aws:cdk:cloudformation:props": {
-                "applicationName": "DolfinFrontEnd-8deed838-b3ad-427a-b737-cc0a592febe9",
+                "applicationName": "DolfinFrontEnd-26f5b5a1-b54e-4c1b-8b6e-dae170bb7809",
                 "sourceBundle": {
-                  "s3Bucket": "cdk-hnb659fds-assets-246885390628-ap-southeast-2",
-                  "s3Key": "66c3fa2b10494a2859ba6df2997727179ebdf9eb79df3f1d047bf44ae4ff372d.zip"
+                  "s3Bucket": "cdk-hnb659fds-assets-909874321825-ap-southeast-2",
+                  "s3Key": "bce5e925268e47203e497c68e6e9291e18b5156cd7981b895ad4dc6798b9f45c.zip"
                 }
               }
             },
@@ -195,21 +117,21 @@
               "version": "2.17.0"
             }
           },
-          "DolfinFrontEndCfnEnvironment": {
-            "id": "DolfinFrontEndCfnEnvironment",
-            "path": "DolfinFrontend/DolfinFrontEndCfnEnvironment",
+          "DolfinFrontEndCfnEnvironmentPROD": {
+            "id": "DolfinFrontEndCfnEnvironmentPROD",
+            "path": "DolfinFrontend/DolfinFrontEndCfnEnvironmentPROD",
             "attributes": {
               "aws:cdk:cloudformation:type": "AWS::ElasticBeanstalk::Environment",
               "aws:cdk:cloudformation:props": {
-                "applicationName": "DolfinFrontEnd-8deed838-b3ad-427a-b737-cc0a592febe9",
+                "applicationName": "DolfinFrontEnd-26f5b5a1-b54e-4c1b-8b6e-dae170bb7809",
                 "cnamePrefix": "DolfinFrontEndcname",
                 "description": "description",
-                "environmentName": "DolfinFrontEndenvironment",
+                "environmentName": "DolfinFrontEndenvironmentPROD",
                 "optionSettings": [
                   {
                     "namespace": "aws:autoscaling:launchconfiguration",
                     "optionName": "InstanceType",
-                    "value": "t3.small"
+                    "value": "t3.micro"
                   },
                   {
                     "namespace": "aws:autoscaling:launchconfiguration",
@@ -223,7 +145,7 @@
                   "type": "Standard"
                 },
                 "versionLabel": {
-                  "Ref": "DolfinFrontEndAppVersion"
+                  "Ref": "DolfinFrontEndAppVersionPROD"
                 }
               }
             },
@@ -242,13 +164,13 @@
                 "attributes": {
                   "aws:cdk:cloudformation:type": "AWS::Route53::RecordSet",
                   "aws:cdk:cloudformation:props": {
-                    "name": "dolfinsolutions.com.",
+                    "name": "dolfintechnology.com.",
                     "type": "A",
                     "aliasTarget": {
                       "hostedZoneId": "Z2PCDNR3VC2G1N",
                       "dnsName": "DolfinFrontEndcname.ap-southeast-2.elasticbeanstalk.com"
                     },
-                    "hostedZoneId": "Z0601941GO4P28I68K85"
+                    "hostedZoneId": "Z034086312CTYRFF6XA1M"
                   }
                 },
                 "constructInfo": {

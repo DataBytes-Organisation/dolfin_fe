@@ -17,20 +17,20 @@
     },
     "DolfinFrontend": {
       "type": "aws:cloudformation:stack",
-      "environment": "aws://246885390628/ap-southeast-2",
+      "environment": "aws://909874321825/ap-southeast-2",
       "properties": {
         "templateFile": "DolfinFrontend.template.json",
         "validateOnSynth": false,
-        "assumeRoleArn": "arn:${AWS::Partition}:iam::246885390628:role/cdk-hnb659fds-deploy-role-246885390628-ap-southeast-2",
-        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::246885390628:role/cdk-hnb659fds-cfn-exec-role-246885390628-ap-southeast-2",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-246885390628-ap-southeast-2/90e41179ae1a619730faa161703bc94df90ac5845c4fc61ff66c59092b0f3ec7.json",
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::909874321825:role/cdk-hnb659fds-deploy-role-909874321825-ap-southeast-2",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::909874321825:role/cdk-hnb659fds-cfn-exec-role-909874321825-ap-southeast-2",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-909874321825-ap-southeast-2/535fb7cd7be3f049525093c60fcf60f1d95a5e73f33a61ed5248a0b230cf579c.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
           "DolfinFrontend.assets"
         ],
         "lookupRole": {
-          "arn": "arn:${AWS::Partition}:iam::246885390628:role/cdk-hnb659fds-lookup-role-246885390628-ap-southeast-2",
+          "arn": "arn:${AWS::Partition}:iam::909874321825:role/cdk-hnb659fds-lookup-role-909874321825-ap-southeast-2",
           "requiresBootstrapStackVersion": 8,
           "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
         }
@@ -39,34 +39,22 @@
         "DolfinFrontend.assets"
       ],
       "metadata": {
-        "/DolfinFrontend/DolfinFrontEndCfnLoadBalancer/Resource": [
+        "/DolfinFrontend/DolfinFrontEndCfnApplicationPROD": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "DolfinFrontEndCfnLoadBalancerD0322F7C"
+            "data": "DolfinFrontEndCfnApplicationPROD"
           }
         ],
-        "/DolfinFrontend/DolfinFrontEndCfnLoadBalancer/SecurityGroup/Resource": [
+        "/DolfinFrontend/DolfinFrontEndAppVersionPROD": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "DolfinFrontEndCfnLoadBalancerSecurityGroup920A18EF"
+            "data": "DolfinFrontEndAppVersionPROD"
           }
         ],
-        "/DolfinFrontend/DolfinFrontEndCfnApplication": [
+        "/DolfinFrontend/DolfinFrontEndCfnEnvironmentPROD": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "DolfinFrontEndCfnApplication"
-          }
-        ],
-        "/DolfinFrontend/DolfinFrontEndAppVersion": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "DolfinFrontEndAppVersion"
-          }
-        ],
-        "/DolfinFrontend/DolfinFrontEndCfnEnvironment": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "DolfinFrontEndCfnEnvironment"
+            "data": "DolfinFrontEndCfnEnvironmentPROD"
           }
         ],
         "/DolfinFrontend/DolfinFrontEndAliasRecord/Resource": [

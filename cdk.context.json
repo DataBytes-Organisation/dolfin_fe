@@ -33,5 +33,40 @@
   "hosted-zone:account=246885390628:domainName=dolfinsolutions.com:region=ap-southeast-2": {
     "Id": "/hostedzone/Z0601941GO4P28I68K85",
     "Name": "dolfinsolutions.com."
+  },
+  "vpc-provider:account=909874321825:filter.isDefault=true:region=ap-southeast-2:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-03be85864c6620274",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-09a84a5b421b1c727",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "ap-southeast-2a",
+            "routeTableId": "rtb-00694e19839385ec8"
+          },
+          {
+            "subnetId": "subnet-0be9471788cbd4708",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "ap-southeast-2b",
+            "routeTableId": "rtb-00694e19839385ec8"
+          },
+          {
+            "subnetId": "subnet-090237faf6219a32a",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "ap-southeast-2c",
+            "routeTableId": "rtb-00694e19839385ec8"
+          }
+        ]
+      }
+    ]
+  },
+  "hosted-zone:account=909874321825:domainName=dolfintechnology.com:region=ap-southeast-2": {
+    "Id": "/hostedzone/Z034086312CTYRFF6XA1M",
+    "Name": "dolfintechnology.com."
   }
 }
