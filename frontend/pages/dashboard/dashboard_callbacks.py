@@ -23,3 +23,8 @@ def update_graph(year):
         labels = 'category'
     )
     return fig_pie
+
+# def get_transaction_data():
+#     api = API()
+#     transaction_result = api.dashboard()
+#     return transaction_result
