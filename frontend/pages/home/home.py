@@ -5,7 +5,7 @@ from pages.home import home_callbacks
 
 
 
-main_content = dbc.Container(
+layout = dbc.Container(
     [
         dbc.Container(
             [
@@ -49,4 +49,3 @@ main_content = dbc.Container(
     ]
 )
 
-layout = dbc.Container([main_content])

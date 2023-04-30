@@ -20,7 +20,7 @@ app = dash.Dash(
 application = app.server # define flask application.server
 
 cache = Cache(app.server, config={
-    'CACHE_TYPE': 'filesystem',
+    'CACHE_TYPE': 'FileSystemCache',
     'CACHE_DIR': 'cache-directory'
 })
 

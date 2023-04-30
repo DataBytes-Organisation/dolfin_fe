@@ -2,8 +2,7 @@ import dash_bootstrap_components as dbc
 import dash_html_components as html
 
 from utils.constants import home_page_location
-from utils.constants import signup_location
-from utils.constants import signin_location
+from utils.constants import login_location
 from utils.constants import dashboard_location
 from utils.constants import breakdown_location
 from utils.constants import news_location
@@ -65,9 +64,8 @@ sidebar = html.Div(
         dbc.Collapse(
             dbc.Nav(
                 [
+                    dbc.NavLink("Login", href=login_location, active="exact", className="nav-link"),
                     dbc.NavLink("Home", href=home_page_location, active="exact", className="nav-link"),
-                    dbc.NavLink("Sign Up", href=signup_location, active="exact", className="nav-link"),
-                    dbc.NavLink("Sign In", href=signin_location, active="exact", className="nav-link"),
                     dbc.NavLink("Dashboard", href=dashboard_location, active="exact", className="nav-link"),
                     dbc.NavLink("Financial Breakdown", href=breakdown_location, active="exact", className="nav-link"),
                     dbc.NavLink("News", href="/news", active="exact", className="nav-link"),
