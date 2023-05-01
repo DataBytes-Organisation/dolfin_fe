@@ -16,7 +16,7 @@ class Auth:
             if email is None: raise Exception("email not in cache")
             if tokens is None: raise Exception("tokens not in cache")
             api = API()
-            api.refresh_token_auth(email=email, tokens=tokens) # THIS IS NOT YET BUILD AND WILL FAIL EVERY ATTEMPT AT AUTH
+            api.refresh_token_auth(email=email, tokens=tokens) 
             return True
         except Exception as e:
             return False

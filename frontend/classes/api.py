@@ -47,7 +47,22 @@ class API:
         except Exception as e:
             raise Exception(f"Sign in for user : {email} failed, likely due to backend being down")
     
-    def refresh_token_auth(self, email: str, refresh_token: str) -> dict:
-        raise NotImplementedError()
+    def refresh_token_auth(self, email: str, tokens: dict) -> dict:
+        try:
+            refresh_token = tokens.get('RefreshToken')
+            id_token = tokens.get('IdToken')
+            
+            url = f"{self.base_url}/auth/token/refresh?refresh_token={refresh_token}"
+            headers = {
+            'Authorization': f'{id_token}'
+            }
+
+            response = requests.request("GET", url, headers=headers, data={})
+            if response.status_code > 299:
+                raise Exception(f"There was an issue getting a refresh token")
+            return json.loads(response.text)
+        except Exception as e:
+            raise Exception(f"There was an issue getting a refresh token")
+
     
         
