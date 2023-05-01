@@ -1,0 +1,383 @@
+id,status,amount,direction,account,class,category,year,month,day
+2667a7d6-0cc2-485f-9eb0-8fee18ba27bf,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2023,Apr,13
+0c1ac4ce-a6f7-41a9-a340-96ed52e78243,posted,78.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2023,Apr,09
+cd743969-4fab-4639-85f5-f1d21262de00,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2023,Apr,07
+ad4bf2e6-df09-49fc-8723-22b7ce6d4525,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2023,Apr,07
+6c931f82-d95e-4665-8216-93063b217ddd,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2023,Apr,07
+129e6dec-0a56-4a37-bcd9-86c91a3f6ecd,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2023,Apr,07
+dcd169c9-1199-4293-94c3-b73cf601fc6f,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2023,Apr,07
+cebdc0b0-054c-405a-a78b-79df247f8759,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2023,Apr,07
+071292b2-7383-496a-b82d-c241bf349587,posted,18.22,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2023,Apr,06
+3ea9165c-eb6d-4aa7-a1e6-32aae6c79064,posted,450.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2023,Apr,04
+122e5f3e-6ad3-4f17-87e8-6ed6035e42e1,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2023,Apr,04
+7e4b8499-7296-462e-a33a-0078c0088bda,posted,300.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2023,Apr,04
+a5c10ad8-0f2d-4785-bb41-e39fc838ab7c,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2023,Apr,04
+8b449393-e1d6-4c8d-abec-47b3f6be9420,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2023,Apr,04
+7c359e0e-e8b2-45dc-9946-23609c1c3d2a,posted,3882.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2023,Mar,30
+39c46dc1-8023-437a-9af9-19b4d4628a0b,posted,9376.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2023,Mar,29
+ac655136-c5e2-474f-985b-8a23decae373,posted,2530.81,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2023,Mar,17
+9e8b25ca-acd3-4d7c-8cdd-8440daac1ae7,posted,101.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2023,Mar,17
+23dbd6c0-980d-4244-9380-aa591d7cb324,posted,420.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2023,Mar,14
+26019778-cfc1-4b0c-8820-61b97265e1a3,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2023,Mar,14
+04d62599-9aef-4a0c-825b-ec92604e089e,posted,95.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2023,Mar,13
+76ebe066-c54d-4b31-8f25-25fa7758f60e,posted,78.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2023,Mar,13
+b14f237c-c7cf-46b2-861d-0243715f353c,posted,95.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2023,Mar,12
+edc3e1ae-c0a9-4d48-bd3a-671e13053e9f,posted,78.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2023,Mar,12
+622078bf-d10b-4dad-a2cb-85c7a6c500df,posted,350.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2023,Mar,05
+94b2b8f2-6179-4148-b838-82ddb528fc56,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2023,Mar,05
+cb62456f-6eb7-4333-9456-ab3a938434cf,posted,350.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2023,Mar,05
+443200ec-0d03-45d3-87ab-578c98fc6293,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2023,Mar,05
+93a5cc05-4c24-4cf0-b6e0-a69e37e404b7,posted,3890.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2023,Feb,28
+305871f4-1612-4213-a092-106a077d162b,posted,9368.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2023,Feb,27
+8c168c5b-adda-432e-a2e3-0d691bb66323,posted,2530.81,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2023,Feb,14
+1f31f248-3bca-44dd-a64c-4cc54d6cf3d1,posted,101.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2023,Feb,14
+9e82f07f-2fc7-42d9-bff3-44ab7b58d9d5,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2023,Feb,11
+b88c953c-bf01-4d8c-8d14-27999fe89d4e,posted,100.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2023,Feb,10
+5b518579-7270-4a40-a50b-072d098d5fa9,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2023,Feb,10
+63bbe86e-4c26-4ec2-8b64-e29955b5117e,posted,95.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2023,Feb,08
+a49bc4cb-a03d-4327-9cd5-936ad852273e,posted,78.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2023,Feb,08
+d3961a1a-6603-42b1-a399-596776f0e98d,posted,3897.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2023,Jan,28
+c2a15bfd-0fa3-43de-a82a-9cc00d677610,posted,9361.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2023,Jan,27
+d5e3762a-f15d-4b90-b432-d55334aee8c5,posted,300.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2023,Jan,17
+6d9eeb5d-f981-42e8-93be-c2fe6ad22105,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2023,Jan,16
+10c2d439-e8f1-432a-97b2-9e70c7a8375c,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2023,Jan,16
+92e0087f-9fb8-48ab-b16f-1b7999ee0c19,posted,100.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2023,Jan,16
+67d32fc5-d494-437f-ba4d-07b21ffd8f67,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2023,Jan,16
+d8fb20aa-f8b1-42ec-846a-a2cbcc9df111,posted,2530.81,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2023,Jan,16
+9e66ccdd-a376-4f67-bc09-799ea33dad45,posted,101.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2023,Jan,16
+ba7782d0-f260-480d-8299-857d9213052a,posted,100.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2023,Jan,15
+4ab4bc7f-c165-449c-af96-5ad46c15989d,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2023,Jan,12
+a52eeb3b-dfb4-4e1b-b33d-163860c3fef9,posted,95.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2023,Jan,09
+6f463030-e7b7-4832-8572-8f2addace5aa,posted,78.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2023,Jan,09
+d3eac1ac-0d39-486e-b48b-742db18d4694,posted,100.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2023,Jan,02
+3ee9a0a1-b493-42c3-a31a-5d054ed510bf,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2023,Jan,02
+2bae8200-88aa-41ab-beca-f4274cef6c53,posted,3905.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Dec,29
+1666b2c5-1595-4588-96cc-220a5d02348b,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Dec,28
+2ac3301b-b58f-4eb1-85dd-32208977cd0a,posted,100.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Dec,28
+068a1d53-d0d6-404a-ba51-2bb764dec743,posted,9353.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Dec,28
+865f00a6-839b-4108-9175-6bbc643688b8,posted,400.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Dec,26
+046c9e1f-f23f-4548-9aad-94207c518ad0,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Dec,25
+6f008194-47f8-4b66-bb3f-e9ca11bc0cbd,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Dec,25
+8e473fe4-ea73-4f8f-b575-b57cd4721571,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Dec,18
+dab9e69e-cbdb-451f-9137-2a67fde6d8eb,posted,2530.81,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2022,Dec,15
+15c16075-5818-4cc7-af1f-b336b27a309f,posted,101.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2022,Dec,15
+2be78ea6-8a3e-4666-b4a6-a29381908185,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Dec,12
+31afbaa1-0139-459c-b5cd-04f1e836652f,posted,95.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Dec,09
+d5e84ba7-6e5c-4054-abc7-0ffc48935e72,posted,78.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Dec,09
+2e29cc43-c835-4aa4-b392-5cb7eaeefee6,posted,3912.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Nov,28
+c74e183a-8ca1-4b08-aca4-4b8d70feff68,posted,9346.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Nov,27
+181ea6ec-faaa-4653-81f5-5fc6bd772714,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Nov,14
+ae060c33-1c39-4ce7-aeea-f37cbe99aa55,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Nov,14
+e97cb032-9388-4970-9498-1091d8c3f6df,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Nov,14
+597bfc8e-f838-4929-be93-dc6321b1a956,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Nov,14
+b4c91878-3f39-4036-b510-3f9be6f84750,posted,2530.81,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2022,Nov,14
+fe180cfc-0bec-4496-a0f7-4207377f365d,posted,101.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2022,Nov,14
+0661634b-54b3-49c3-be12-c2a41152d295,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Nov,11
+d9066e8f-3539-4b40-ac2e-2dc25d199ddc,posted,95.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Nov,08
+8cee9c72-c5aa-479a-8109-c1a6a1f276c7,posted,78.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Nov,08
+a4e205cf-f1b6-4761-b4b0-ee1cbd619fd0,posted,2.02,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Nov,03
+bbaea36c-4a61-4ad2-809d-6e3e1f9d2172,posted,1.31,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Nov,03
+09bc778e-3bb6-497b-bdbb-647192cc2772,posted,3920.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Oct,28
+749436d9-7593-4f7c-a84c-fb86d6c0871e,posted,9338.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Oct,27
+578a2167-4aa3-4e7f-8e0c-f0c342bcda5b,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Oct,18
+fe79243a-3cf7-4e11-8e67-3184eb3de9a0,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Oct,18
+30997a29-7e9e-45c9-a2ed-0ceb62fd038b,posted,2530.81,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2022,Oct,17
+a43c3659-07b7-4bb3-b0d2-f980b91c48b2,posted,101.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2022,Oct,17
+7c5a45fa-291e-4a38-9d86-e25fe1cc542c,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Oct,12
+265d3135-23d7-4a14-bfc6-699879c0596d,posted,95.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Oct,11
+47abe114-8ff6-44db-b467-10db23674c21,posted,78.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Oct,11
+5dc1cce7-a89d-45df-a069-0fb8ef4f9c8b,posted,3927.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Sep,28
+a0a4a39f-62e0-4d7d-b0cc-f395601cb247,posted,9331.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Sep,27
+6f39334c-988b-4d91-ad20-d7251a6b8ce7,posted,900.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Sep,25
+57ee3775-5aa8-42fc-9264-911a7b53b3d4,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Sep,25
+61ad6f85-9fb5-4efd-b362-75177996d366,posted,31.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2022,Sep,25
+f445abef-fe5a-4e74-b9d6-7d7700c61f91,posted,2530.81,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2022,Sep,14
+736947b0-eec4-4396-8fd9-af6131e803a9,posted,101.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2022,Sep,14
+abb93981-4017-4abb-823b-46f1d7e63ec3,posted,70.69,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2022,Sep,12
+40b3f0b5-5643-4753-8e79-700982db9d14,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Sep,12
+63825beb-af72-472e-b046-81737dc1c7a6,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Sep,12
+acb4fde7-9917-406f-afea-aa6eb5f52e58,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Sep,11
+763ebd58-f029-4138-9c05-ed55e632b2f1,posted,95.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Sep,08
+f674365c-471d-4f0c-bee6-c355677115fe,posted,69.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Sep,08
+de8cfa43-c854-49e5-adae-0540f8377262,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Sep,07
+ed34a710-3058-4b28-9079-91ef90940e21,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Sep,07
+e25ae48a-fd4a-431d-8bd0-7bcf4f2a158f,posted,36.35,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Other Health Care Services,2022,Sep,01
+28b0058a-b256-4a1e-9cf8-e7bbe32197e9,posted,400.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Aug,31
+b4f73b27-1539-44c0-bbb0-2eda72b61a7e,posted,3935.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Aug,28
+9f33d56c-27b7-4664-98c8-904020aebb65,posted,9323.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Aug,27
+858c588a-6839-41c4-ac70-60c8f195d1ee,posted,2530.81,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2022,Aug,16
+9be101a5-5539-4211-81c7-ede07e8dabbe,posted,101.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2022,Aug,16
+ac760323-64c9-483e-aa4d-e517ed4e4f9e,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Aug,12
+58aab59c-a486-4696-a4ca-4d9d0095795b,posted,160.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Aug,09
+27a90f2b-11ec-43d5-a0c2-e551546f1bc9,posted,69.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Aug,09
+762e069d-9b96-46c3-bf90-1018c3f4fe2c,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Aug,03
+c7e4453a-c1d1-4b55-97ae-addeb74efb03,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Aug,03
+df610556-1075-4f72-80fc-bf0b989660df,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Aug,03
+9adcd010-68e7-4e15-ab6e-5942d9750b39,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Aug,03
+6f08de92-08c9-4a9c-bccc-9f7ae10688bb,posted,3942.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,July,29
+4f4c2846-d333-43fd-9ae5-f75fb677d1de,posted,9316.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,July,28
+09dde656-7999-47e0-980e-816975747c88,posted,2530.81,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2022,July,15
+2109a1f6-665d-4c2e-9b50-9014353ee919,posted,101.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2022,July,15
+c53964ac-aaca-4536-87f3-af6c4c323c14,posted,26.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2022,July,12
+2bbed430-4aff-4e44-bab5-14d85f7fa3ab,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,July,12
+9af4db44-84b8-4946-b2df-779f7402f2e1,posted,160.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,July,11
+a769aafc-0a5d-456b-8262-d5e850d440f8,posted,69.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,July,11
+17cd6549-b353-43ec-9959-66db49eeb33d,posted,750.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,July,03
+b3a90231-6489-45e0-9a5a-213d4e71937f,posted,3950.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,June,28
+15e9b5ee-8ce0-457c-911f-5718f0041dca,posted,9308.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,June,27
+ee818488-a1ef-4400-9025-edbab2102e0c,posted,2533.56,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2022,June,27
+641b79c7-0a60-40d1-96bf-6c85e71c8eba,posted,103.75,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2022,June,27
+b7a7c76b-116e-46c0-9733-f3dcdf9ee8f8,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,June,14
+b75472ae-0e20-4b61-ac29-cde7c35aa0f7,posted,160.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,June,13
+eccf0bee-5ace-4ab8-a71b-52e8ad5a90a4,posted,69.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,June,13
+e34fe7db-5f59-454c-a9b1-bbd01190abf9,posted,3957.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,May,31
+67a9bc6e-8afb-4fee-a180-e02291fbc4f2,posted,9301.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,May,30
+1e6dfecc-487e-4769-a589-2ec22d0e7a69,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,May,14
+63566e5b-e521-4cfe-a785-885e2a962b0d,posted,160.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,May,11
+d2a3fe85-f937-43e7-bf24-949356f562cf,posted,69.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,May,11
+c24ab81b-2867-49a4-ad18-99388a8cf72e,posted,3965.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Apr,30
+d32c9c29-3132-4738-a649-aca2da02c69b,posted,9293.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Apr,29
+8912aa5c-532b-45b7-8234-2e751e8f5907,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Apr,13
+adfdfd4f-2a10-46a1-b65a-7f4ad45ac25f,posted,160.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Apr,11
+df23acd0-b269-439c-b453-b2e06af236d1,posted,69.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Apr,11
+84771b03-8594-406b-94b9-b487bc36e9d5,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Apr,07
+364be2dc-95d8-475b-aaf2-b6d25dc9a517,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Apr,07
+8c2363fd-0608-4a12-b7b2-9804b5b32351,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Apr,07
+614d0f7a-f6b3-4569-b1cc-799d43872843,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Apr,07
+a2c170bd-82cc-4e1d-bad5-a3d132068345,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Apr,07
+3339f84e-cc53-4669-9ba4-a1aee48b0477,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Apr,07
+a4228629-1096-45be-892d-b0984d5ff44a,posted,450.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Apr,04
+e31cbe72-f8a1-49a5-bc10-3e70cf7e6270,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Apr,04
+e4d937d7-a059-4409-8bae-7fde4d99bbb6,posted,300.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Apr,04
+b0760801-91a8-460c-b04b-a0512306bc73,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Apr,04
+9c147466-f1af-4bdc-ba2a-114dc80b3911,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Apr,04
+8e4c0c2d-cb58-4e40-8082-ecef33db69c7,posted,3972.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Mar,30
+b067491b-1abe-479c-88ae-62e96d44cc0e,posted,9286.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Mar,29
+ba27716f-e8b5-4a31-9b03-fb98edfbac60,posted,420.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Mar,14
+295a38f4-4138-45af-8e95-fe42a3834615,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Mar,14
+ee89c0b4-cc79-4986-966e-027ffb6266d6,posted,160.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Mar,11
+7e681d12-8ce5-4525-a0ed-1405436ea1ee,posted,69.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Mar,11
+3175f0ef-bfbe-4297-954e-7803eb01f1e1,posted,350.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Mar,05
+35934dc1-8702-49b6-bb42-1913aa09053b,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Mar,05
+210d4c84-8877-4535-9a8e-f74f0c9e4bb8,posted,350.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Mar,05
+30927c96-61cd-4965-95d5-b0ae7e143d60,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Mar,05
+2ee4781d-4d0c-4cc9-ba98-3076736664be,posted,9278.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Feb,28
+e2708ecc-e3fa-4a02-8c5c-36446f00c710,posted,3980.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Feb,28
+8d19928e-dad6-487d-accd-264c10780a99,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Feb,12
+5dc47815-dc71-4a2a-97f6-1e1902b6188e,posted,100.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Feb,11
+bf8fddda-9820-43d5-9682-bbfd45ee181b,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Feb,11
+51cb2bf5-80bd-4c4b-ac48-681fcd31ff32,posted,160.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Feb,09
+d573e39a-9ad5-463e-a9e9-d058bbfe2f48,posted,69.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Feb,09
+2acf752b-4b46-46d4-80eb-9f6e4a4bb441,posted,3987.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Jan,29
+ac459c23-8c50-42ee-aed8-b5856cdf3b06,posted,9271.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Jan,28
+88150acc-ad0d-4e71-8bb2-7a4743a47d01,posted,300.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Jan,18
+0502a551-780b-4a85-ac5f-a76c75c8ef44,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Jan,17
+d8bcd072-ec58-4d54-865d-283b57d0e5d6,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Jan,17
+87b8e14a-3f45-445b-9ab3-5d0b5dd547db,posted,100.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Jan,17
+c7520391-851e-4c6b-ac31-2435ff77e391,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Jan,17
+0806ba92-4244-4c9c-92d5-136794f7cee7,posted,100.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Jan,16
+e96e41e3-bb89-41eb-a377-8722e60e8e89,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2022,Jan,13
+569115c1-da9c-4ef8-b0e2-37b4beb0e971,posted,160.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Jan,11
+d3f1291f-096d-4f21-9a87-840024a647c5,posted,92.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2022,Jan,11
+883cd598-d952-433f-ba69-33a0e59d88d2,posted,100.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2022,Jan,03
+498efa67-86f7-4e07-a5d4-74470ed81f43,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2022,Jan,03
+b624af4c-abd9-4630-8bff-2194e7386738,posted,3995.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,Dec,30
+4d3eab23-e168-42c4-9b11-8e2f45f53ab0,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2021,Dec,29
+c2a1ba2f-176f-493e-b0c6-c148f443461f,posted,100.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2021,Dec,29
+47f43d06-53bb-4b49-8a2b-5b1b85ac48d9,posted,9263.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,Dec,29
+76f03ebd-fb02-43f4-a690-3ccb956dc317,posted,400.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2021,Dec,27
+dd425fbc-a8ad-4646-8209-f32da76773b2,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2021,Dec,26
+58b457e5-9815-45f3-9df9-d3506e58e09f,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2021,Dec,26
+714127b5-3469-46cf-a4d8-3a1f4bdc479d,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2021,Dec,19
+a8d09047-0d62-4ff4-90f2-70f5c919fce5,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,Dec,13
+e9b6e758-2f05-4b83-8041-a7885b4d7520,posted,160.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2021,Dec,10
+106af7b1-08ca-45dd-90a8-0cd6911f2f99,posted,92.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2021,Dec,10
+a159808f-5373-4b2f-a8fd-22fbb4fa339b,posted,4002.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,Nov,29
+9a71ca1d-c440-4ac9-b264-19e3ffb1504e,posted,9256.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,Nov,28
+b1901b20-a1ed-4434-8b24-2897a9664b7e,posted,371.7,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Regulatory Services,2021,Nov,25
+c2802fbb-6ddb-4069-98c0-e2f453b4a2ee,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2021,Nov,15
+0ac7c28e-e669-4f3a-8abb-c27693b05de0,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2021,Nov,15
+3ec09c2b-0963-4bae-9a47-10192bd223af,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2021,Nov,15
+ad5bf0c8-3925-449c-9146-7ff92a4669fb,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2021,Nov,15
+a28b5e46-c819-4963-a9ae-d854c540daba,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,Nov,12
+76d8981a-6c6d-41b2-a06d-68df8c80d823,posted,126.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2021,Nov,09
+ef3e2389-67d1-4abb-8729-9c5bc415b9ee,posted,92.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2021,Nov,09
+28305ff6-5ecc-49ae-b091-79d00e22eb86,posted,4010.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,Oct,29
+a183238a-a512-4002-b452-30769049d23c,posted,9248.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,Oct,28
+534b3ba0-a389-4131-9107-5cc970b86c9b,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2021,Oct,19
+fb6c4986-ce62-4f0c-a90e-f706b495563e,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2021,Oct,19
+b641880f-532e-498d-9896-91a11e87b55e,posted,2426.75,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2021,Oct,16
+785a61e8-1056-4043-9e0a-39cdcf8745d2,posted,51.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2021,Oct,16
+30bce130-80d8-4ab3-86fe-403c2a023d31,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,Oct,13
+49018406-227c-42b5-8e84-b19f9c73d476,posted,126.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2021,Oct,13
+1e27674c-604f-42d2-acdc-fad9367ba412,posted,92.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Electricity Distribution,2021,Oct,13
+b83e8233-0fea-4638-8c34-94ef06d3c9ba,posted,4017.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,Sep,29
+3f2950a0-d0b4-4a50-ade1-d8e91bed0c03,posted,8241.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,Sep,28
+4ec95aef-f34e-4823-bd4b-d7c3541508a6,posted,900.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2021,Sep,26
+16aec8eb-e0e5-4a1f-ad97-81c3c42eed2d,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2021,Sep,26
+8e3e990f-41cc-48d0-a1cd-e4aca12e0d7a,posted,3.06,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2021,Sep,17
+925489c5-251c-46b2-a87e-421b9c238214,posted,1.66,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2021,Sep,15
+e18af332-84ec-4309-b130-14d713d5c34e,posted,2426.75,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2021,Sep,15
+9547e2c8-5d44-4a01-b662-a4c2ec9a3137,posted,51.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2021,Sep,15
+3d154b9e-e3db-4c7b-9897-4ae859f32cc1,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2021,Sep,13
+36554768-2fb6-4639-b8de-fe95df16d4fe,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2021,Sep,13
+0c744a75-ebcd-4285-b69d-93823e932015,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,Sep,12
+d211a53c-15b8-4c3c-9e3b-3735f4b29625,posted,34.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2021,Sep,10
+24bfc8a6-c82b-4c94-9eef-7e56a1634543,posted,34.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2021,Sep,10
+ac08f9e8-bb46-4349-aa2d-d1b78821b5f3,posted,34.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2021,Sep,10
+ea145cef-5e42-4544-b98e-892deaa4ca6a,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2021,Sep,08
+a1209a4f-598c-4b74-a897-4a5231fa74dc,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2021,Sep,08
+2178c82e-cfcd-4497-9d7b-04a1f7e1b7a4,posted,400.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2021,Sep,01
+39a9846e-c5bc-46d6-a0b8-4e0d0a832b9c,posted,4025.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,Aug,29
+6c174e9f-7954-43b0-b95f-987b5cd1762b,posted,8233.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,Aug,28
+e0760f6c-7716-4cb2-b8b3-44bedc4f59ad,posted,361.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Regulatory Services,2021,Aug,25
+3c2b8abe-7032-4482-9233-7ee04b686cac,posted,2426.75,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2021,Aug,17
+bbbaa710-4cdf-4f67-aaa3-7f8f0cf19bf4,posted,51.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2021,Aug,17
+c76b3d55-02a2-471b-b185-f0972797dbb7,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,Aug,13
+78e94486-fdbd-41f8-b13d-728c2a6a57e7,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2021,Aug,04
+8ea4df15-3451-482f-998c-167aa10f3524,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2021,Aug,04
+457b9cc0-1535-42ad-bbb3-02fc0e647712,posted,200.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2021,Aug,04
+dbdeb1f9-6566-4433-aa02-ece3b975a41b,posted,2.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,bank-fee,Unknown,2021,Aug,04
+8c7233f1-8f83-4e33-9dd0-eaf111c6763c,posted,4032.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,July,30
+2e803014-a4c0-4470-96e0-4bb7c8066b61,posted,8226.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,July,29
+d77adc9a-b213-4be8-8449-8072d175b706,posted,2426.75,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2021,July,16
+557551f4-c62d-4973-9cfa-56cd4224eaa3,posted,51.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2021,July,16
+19d5155e-8860-42b9-a9b7-78cf2192bc1e,posted,506.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2021,July,13
+29e772f6-b912-4873-b279-a2c506ce45d2,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,July,13
+d8f38824-21d7-4df2-b61f-23cf58942e8f,posted,750.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,cash-withdrawal,Unknown,2021,July,04
+93f5edab-fc4a-4f8e-ace6-ce966d771183,posted,4040.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,June,29
+62d4cef8-1be1-4edf-9901-d5bd43784857,posted,8218.5,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,June,28
+ee6f1f24-9e23-443a-a44f-1d3b27483e8b,posted,2426.75,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2021,June,18
+935b83e5-a95c-4c38-8db5-4ec7b337a671,posted,51.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,School Education,2021,June,18
+41f4b696-ee11-4b15-a70b-4ccf2bec814d,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,June,14
+14631566-d133-4f25-82f0-c8ea788e1bfd,posted,4066.25,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,May,31
+4e48d97c-b72c-4657-83bf-496b82447678,posted,8211.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,May,30
+e4dc3d39-9a01-4c13-8721-b90fae7b3798,posted,361.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,payment,Regulatory Services,2021,May,22
+6b21a013-00c2-4208-bd92-71df450f1310,posted,500.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,May,14
+c9ac0091-e5bb-479b-a3de-377109d59f87,posted,4040.0,debit,0b107c33-e858-4bbd-abba-f757ae4da1fc,transfer,Unknown,2021,Apr,30
+4d8cbff0-4379-4820-b706-6bb4e85534fe,posted,3735.75,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2023,Apr,18
+074a814f-bd8d-4746-abf4-9eb6f8fcc431,posted,3728.5,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2023,Mar,19
+917a9ade-828c-49a4-9483-cae4474d8cd0,posted,3720.75,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2023,Feb,16
+2d0c5740-fff8-4f32-8daa-0280a912531a,posted,3713.5,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2023,Jan,17
+f82043c0-eca3-47f4-9adb-79bdd3b01a95,posted,3705.75,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2022,Dec,17
+8fa87adf-6407-4f9f-a787-f384a317a4ac,posted,3698.25,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2022,Nov,16
+7bdb8562-d700-436d-8862-f0dbdf0d9be5,posted,3691.0,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2022,Oct,17
+2590df27-63cd-4ad7-ac12-258ac75f0feb,posted,3683.25,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2022,Sep,16
+5bb95c4f-ac33-4e1d-a89d-34b2d83ad8ff,posted,3676.0,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2022,Aug,17
+d54c9014-6c10-4504-9853-6c65f0f7d686,posted,3668.25,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2022,July,17
+48559015-fe47-4c77-9fa9-040d91c6467c,posted,3661.5,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2022,June,19
+3a658461-f71f-4228-9ca0-ccccb900f61f,posted,3653.25,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2022,May,19
+eddd173a-a30a-4699-a2d3-5a7d2898b418,posted,3645.75,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2022,Apr,18
+6e0f7b0d-8302-4284-b6df-3cb6d9b45e89,posted,3638.5,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2022,Mar,19
+22b95c28-7d7f-4067-932d-70741f07561b,posted,3630.75,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2022,Feb,17
+4f161578-a148-4629-b416-1e5c3a533b21,posted,3623.5,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2022,Jan,18
+33cd6b47-a470-45fe-9d89-7606b6167f19,posted,3615.75,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2021,Dec,18
+cbd7fff9-ed2d-4336-8431-401390635f93,posted,3608.25,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2021,Nov,17
+a8edbf0a-24a5-4322-94c2-7775ccf65ecd,posted,3601.0,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2021,Oct,18
+d40a1af7-7587-4750-a0ce-189c76e2a5f1,posted,3593.25,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2021,Sep,17
+934f4619-d7c9-4523-ab28-f3c631c14b3d,posted,3586.0,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2021,Aug,18
+b0ccd26c-3d4a-4c2c-b1c5-4cc58b911dd1,posted,3578.25,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2021,July,18
+b63714e3-eaf0-4434-abd4-fa3dc4fba85d,posted,3571.25,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2021,June,19
+73e57eb2-15fc-4774-a559-9e5601f3fad6,posted,3502.5,debit,2df58481-c77a-40b1-8249-949cb3ea9670,loan-interest,Unknown,2021,May,19
+fa9d988e-1ddd-42f7-be2f-744bae0d159f,posted,104.9,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Electricity Distribution,2023,Apr,19
+70666672-d52b-424d-9ea3-6d1e1ffe156e,posted,97.98,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Fuel Retailing,2023,Apr,19
+4d53779f-977e-4906-89ea-23f16bdd4e03,posted,51.22,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Unknown,2023,Apr,19
+5328a56a-0cfd-43c4-8822-76787ab4f8b7,posted,26.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Regulatory Services,2023,Apr,19
+cca7d75d-b753-4afb-8f1f-e263b3c94dda,posted,121.45,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,18
+76632db1-2969-4e3e-b706-a76a7eae362a,posted,136.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Accommodation,2023,Apr,18
+9da9b68e-2e60-47c5-9cdd-a89f7d18c95b,posted,91.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Specialised Food Retailing,2023,Apr,18
+203a634c-14f5-4920-911b-539bc7229805,posted,79.3,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Fuel Retailing,2023,Apr,18
+2e77d8af-85fe-4ec7-9fc6-234aaa675fec,posted,26.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Regulatory Services,2023,Apr,18
+b89f0e5b-3dd9-4982-a31c-79715acb1a66,posted,22.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Apr,18
+a4f221d3-673f-460c-abbd-45ca926ed1ea,posted,51.5,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Apr,17
+827bab73-80df-4f49-9c3e-bcc91fa90423,posted,30.5,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Apr,17
+0e0ecd85-6b4d-4951-856e-bf007ebae079,posted,30.25,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,17
+13c41de1-df0d-48a3-8e6d-e8cc2ad90809,posted,29.9,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Specialised Food Retailing,2023,Apr,17
+544d694a-e41a-4f85-8f13-0eaaa3850ffe,posted,29.5,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Electrical and Electronic Goods Retailing,2023,Apr,17
+cc383097-b2ad-4172-a3d1-14a892f14873,posted,27.4,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Specialised Food Retailing,2023,Apr,17
+9ac0daef-b182-4d72-abb1-eb7e25ec1e2f,posted,21.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Fuel Retailing,2023,Apr,17
+1532f85b-8634-401c-8d60-af0daa2b5236,posted,12.93,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,17
+04303c36-7a16-4146-99cb-8778da87ca65,posted,12.5,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Apr,17
+c582b035-09a0-48e1-bcf5-0cf9b6892569,posted,11.95,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Specialised Food Retailing,2023,Apr,17
+e00bd29c-141b-4ab1-b423-e4cf787e84eb,posted,124.5,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,16
+59fa162b-2029-442a-ad65-c32fbe8d1b4d,posted,17.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Fuel Retailing,2023,Apr,16
+f36f4646-93c4-4e24-815d-1f075388d88a,posted,157.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Apr,16
+e4784a45-5cec-4d4f-b7f7-10299aa231dc,posted,46.5,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Apr,16
+14eaf5d3-1a1d-4b5d-942b-a98ac9f5d007,posted,31.72,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,16
+b237c66d-4b17-45a6-9931-5b6057531b19,posted,17.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Apr,16
+90d5db2a-deb8-4d4c-954d-b3910c521e0c,posted,40.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Telecommunications Services,2023,Apr,15
+6f9794ba-1598-4b5b-86ba-17561a858c13,posted,130.22,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,14
+d48c7547-d589-49ac-992a-5893f126fc0a,posted,23.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Other Personal Services,2023,Apr,13
+e54ca7b7-6620-432d-b27b-7c8a5cdb5756,posted,157.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Creative and Performing Arts Activities,2023,Apr,12
+51b6c051-22cd-4f5a-b33a-81bd376a41b0,posted,30.97,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,12
+29d67610-5ce4-4e6f-affc-5e52295ad723,posted,47.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Pubs, Taverns and Bars",2023,Apr,11
+92785486-0ca3-4ae2-bcac-b0ea9bacf5c7,posted,271.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Other Social Assistance Services,2023,Apr,11
+35c92737-0f6e-4eb9-a71d-9d654b7256db,posted,123.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Regulatory Services,2023,Apr,11
+02daa778-7796-4fe0-9aa0-477136496657,posted,123.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Regulatory Services,2023,Apr,11
+c9a90433-bfb2-41d9-aa05-53aaf97d0ac8,posted,117.9,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Recreational Goods Retailing,2023,Apr,11
+f55214a0-cbc7-43f5-97b4-dd7afb619867,posted,68.46,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Fuel Retailing,2023,Apr,11
+2052069f-64f9-4615-b6d2-6448ec6870ef,posted,55.75,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,11
+e0e12f4c-a5f6-4056-8933-b6636c34757e,posted,47.85,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Furniture, Floor Coverings, Houseware and Textile Goods Retailing",2023,Apr,11
+105169c4-c977-45d4-bd02-c72f45cf2c55,posted,42.74,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,11
+f61211ec-b7bf-4dd9-9478-a358bcb4d052,posted,37.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Specialised Food Retailing,2023,Apr,11
+96dd3c82-5fab-437d-aa3a-c953281d4e5d,posted,32.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Specialised Food Retailing,2023,Apr,11
+2d175a15-0ebf-453b-9311-cbd7f8bf269f,posted,29.5,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Apr,11
+6589db3a-ac61-466e-b50e-8b6e0999d5e5,posted,94.24,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Fuel Retailing,2023,Apr,10
+240d0e75-c11f-4494-aa9b-19210a6f3242,posted,56.93,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Recreational Goods Retailing,2023,Apr,10
+4b388c2f-6ed4-4e91-93f3-0e43b0e6698d,posted,55.1,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,10
+0a4c1839-88b8-441f-8e65-1897577480b0,posted,51.5,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Amusement and Other Recreation Activities,2023,Apr,10
+67c4072c-ee6d-443f-9f48-f7e98bd1cb05,posted,44.6,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Specialised Food Retailing,2023,Apr,10
+e54abdf2-5113-4ae8-8936-865d157a56e5,posted,43.3,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Apr,10
+086434ba-bc74-495d-9421-5577bd888a23,posted,36.47,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Furniture, Floor Coverings, Houseware and Textile Goods Retailing",2023,Apr,10
+d4abdbc0-56d5-49bc-91a9-5e29f42bb4d5,posted,31.1,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Specialised Food Retailing,2023,Apr,10
+bb0f8259-7c95-4c8d-8fd8-8a318db746e7,posted,21.94,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Department Stores,2023,Apr,10
+78220a49-b0fd-4dda-9668-bfd110123a61,posted,20.8,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Apr,10
+b54b2cb0-1cb0-4c90-a720-4e5bcd7be19c,posted,19.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Apr,10
+3df22f79-90a5-4f19-9161-bf70e844be28,posted,6.75,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,10
+356a99d8-de34-45aa-9cc7-a47e17481f9b,posted,4.98,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Hardware, Building and Garden Supplies Retailing",2023,Apr,10
+f139fe87-7262-478a-a24e-636bc5374da3,posted,13.99,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Department Stores,2023,Apr,10
+b7af7def-33e2-499f-ab38-b41f3d0a7877,posted,51.5,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,09
+76c4e252-0b84-42af-877b-5125f9111e99,posted,44.6,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Department Stores,2023,Apr,09
+e425e61b-5331-4d6f-97e8-b458f021c54f,posted,31.6,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Apr,09
+354553c3-756e-45be-ae3d-6826b947ab57,posted,24.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Department Stores,2023,Apr,09
+0bb9cfc9-126d-4227-ade8-60120c5e058c,posted,23.85,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Specialised Food Retailing,2023,Apr,09
+c12e8e8a-1ad7-4054-8576-388ba841e6b9,posted,20.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Department Stores,2023,Apr,09
+2ad7de95-955a-49d9-9251-50a2313d4ad7,posted,11.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Pharmaceutical and Other Store-Based Retailing,2023,Apr,09
+2fa1cfd6-77f3-466a-a853-d87cc5130581,posted,100.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Pharmaceutical and Other Store-Based Retailing,2023,Apr,06
+527e5a68-284b-4df4-89cf-980021b20d5c,posted,92.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Apr,06
+bd4404e2-bd06-4b39-ab84-7914471ea66a,posted,63.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Apr,06
+833a7d8d-8db5-43e0-b7f4-f888e7accea6,posted,19.2,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Other Personal Services,2023,Apr,06
+5e053dab-6998-40eb-a3b4-0800ebe3cc15,posted,19.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Apr,06
+bde9f8b4-250d-4dc6-b8d0-5ec6a5521d04,posted,7.55,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Specialised Food Retailing,2023,Apr,06
+d6673142-0598-454d-bf55-91145c12b0d5,posted,11.5,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Department Stores,2023,Apr,06
+2710a10c-4882-4d3f-8be3-a14823502f70,posted,7928.1,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Legal and Accounting Services,2023,Apr,04
+e67d3304-a819-42ce-8366-113ac41c1739,posted,201.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,04
+86c1b3fb-765a-4b7d-acf0-2de07dd349ad,posted,631.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Allied Health Services,2023,Apr,04
+3c50a708-da4a-4e46-976d-a0198c033409,posted,97.25,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Apr,04
+bf43c8a0-effb-41d7-a582-62a1451e4567,posted,39.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Specialised Food Retailing,2023,Apr,04
+80bf835b-8498-49ea-8229-eef0524f6d54,posted,22.9,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,04
+db710632-b269-4ea0-8265-4e4a300aa04d,posted,19.95,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,04
+aef1325e-cd7e-4d5a-bb25-1cab70c68cf6,posted,19.9,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,04
+4f501716-303d-460c-af1a-dce31002c5f4,posted,14.95,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Specialised Food Retailing,2023,Apr,04
+53ce1817-ef30-4af4-b978-0145622566af,posted,190.07,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Sports and Physical Recreation Activities,2023,Apr,03
+4a2d1a35-f18a-4039-a2c3-86d91641d932,posted,96.8,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Specialised Food Retailing,2023,Apr,03
+e0b761ea-5cc7-4c81-b79c-28e7c2234274,posted,75.38,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Recreational Goods Retailing,2023,Apr,03
+6f488ca4-3fd8-40f1-875f-f30d587bc598,posted,67.16,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,03
+23a18684-c655-4e84-916c-d103ea37e964,posted,65.13,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Fuel Retailing,2023,Apr,03
+d79671d6-1dfe-451a-b7d8-c76186baf7f8,posted,65.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,03
+3d18ff67-0f89-4aec-899f-df5bca80900f,posted,57.89,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Postal and Courier Pick-up and Delivery Services,2023,Apr,03
+f9f681f9-c4fb-41d8-8aee-6ad090ce6fe1,posted,33.03,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,03
+fa020ecd-8b02-409e-8f34-dcbaa12641ef,posted,28.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Apr,03
+9d7d4683-0b0c-449e-b5fa-25a859595031,posted,17.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Department Stores,2023,Apr,03
+20d86e39-e856-4513-8a72-7d4115e6cea0,posted,17.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Specialised Food Retailing,2023,Apr,03
+88f00ae3-8120-4e52-8d40-fcdeb47fafdf,posted,11.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Local Government Administration,2023,Apr,03
+d20f2152-e7c4-44a4-b3a5-f73fea406980,posted,11.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Local Government Administration,2023,Apr,03
+48f2f5d6-6252-4334-8d7a-0377bf6db75f,posted,5.99,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Recreational Goods Retailing,2023,Apr,03
+c71a4aca-5cbc-4bbe-8e41-d848713fb446,posted,53.6,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Non-Store Retailing,2023,Apr,03
+0c847858-9ecf-43a4-ba9f-44e17e8c6d8a,posted,35.5,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Specialised Food Retailing,2023,Apr,01
+eba52b1d-1425-4095-ba97-07a488aff2c9,posted,51.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,cash-withdrawal,Unknown,2023,Mar,30
+7dc66d7b-bc8e-4e89-95d7-3bc498836f83,posted,11.22,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Hardware, Building and Garden Supplies Retailing",2023,Mar,30
+5d182d8c-e00c-47e4-a301-0559f070d434,posted,51.9,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,Supermarket and Grocery Stores,2023,Mar,30
+cae045c0-f3ce-4a85-b644-502f5719ff65,posted,10.5,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Mar,30
+d0d0e4d4-ef95-4ee0-89ad-5198533e32e9,posted,7.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Mar,30
+f1ec05c6-e9ef-49a5-8363-c77b5ccfc50d,posted,5.0,debit,49544383-c19c-4c97-b8d1-5322d0faa6af,payment,"Cafes, Restaurants and Takeaway Food Services",2023,Mar,30
