@@ -7,8 +7,9 @@ import pandas as pd
 from app import app
 from pages.breakdown import breakdown_callbacks
 
-
 df = pd.read_csv('pages/breakdown/dummies.csv')
+
+# df = pd.read_csv('pages/breakdown/Transactions_2022Q1.csv')
 
 layout = dbc.Container([
     dbc.Row([
@@ -30,13 +31,7 @@ layout = dbc.Container([
             dcc.Graph(id = 'yearly_spending_graph', figure={})
         ], width = {'size':6}),
         
-        dbc.Col(html.P('Lorem ipsum dolor sit amet, consectetur adipiscing elit,\
-                       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\
-                       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris\
-                       nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in\
-                       reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\
-                       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia\
-                       deserunt mollit anim id est laborum.', className='text-right text-primary, mb-4'),
+        dbc.Col(html.P('Shows your spending over the selected year.', className='text-right text-primary, mb-4'),
                 width = {'size': 3,'offset' : 1})
         
     ]),
@@ -54,13 +49,7 @@ layout = dbc.Container([
             dcc.Graph(id = 'yearly_saving_graph', figure={})
         ], width = {'size':6}),
         
-        dbc.Col(html.P('Lorem ipsum dolor sit amet, consectetur adipiscing elit,\
-                       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\
-                       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris\
-                       nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in\
-                       reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\
-                       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia\
-                       deserunt mollit anim id est laborum.', className='text-right text-primary, mb-4'),
+        dbc.Col(html.P('Shows your saving over the selected year.', className='text-right text-primary, mb-4'),
                 width = {'size': 3, 'offset': 1})
         
     ])
