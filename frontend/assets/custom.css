@@ -1,0 +1,36 @@
+.chat-wrapper {
+    position: fixed;
+    bottom: 5px;
+    right: 20px;
+}
+
+.chat-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 2px; /* Increase padding horizontally for a wider button */
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 200px; /* Set a specific width for the button */
+    height: 40px;
+}
+
+.chat-container {
+    display: none;
+    background-color: #F8F9FA;
+    padding: 10px;
+    border: 1px solid #CED4DA;
+}
+
+.chat-messages {
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.chat-input {
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #CED4DA;
+    border-radius: 3px;
+}
