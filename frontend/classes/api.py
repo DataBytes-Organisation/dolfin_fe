@@ -64,7 +64,7 @@ class API:
         except Exception as e:
             raise Exception(f"There was an issue getting a refresh token")
 
-    def dashboard(self) -> dict:
+    def basiq_api_transaction_data(self) -> dict:
         try:
     
             url = self.base_url+"/basiq/transactions"
@@ -83,4 +83,3 @@ class API:
         
         except Exception as e:
             raise Exception("Error getting dashboard data failed")
-       

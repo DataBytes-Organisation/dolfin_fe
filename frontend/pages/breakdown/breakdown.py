@@ -8,7 +8,10 @@ from app import app
 from pages.breakdown import breakdown_callbacks
 
 
-df = pd.read_csv('pages/breakdown/dummies.csv')
+dfIncoming = pd.read_csv('pages/breakdown/monthly_saving_user.csv')
+dfOutgoing = pd.read_csv('pages/breakdown/monthly_spending_user.csv')
+
+
 
 layout = dbc.Container([
     dbc.Row([
@@ -25,7 +28,7 @@ layout = dbc.Container([
         
         dbc.Col([
             dcc.Dropdown(id = 'yearly_spending_dd', multi = False, placeholder = 'Select a year',
-                        options = [{'label':x, 'value':x} for x in sorted(df.iloc[:,3].unique())]),
+                        options = [{'label':x, 'value':x} for x in sorted(dfOutgoing.iloc[:,0].unique())]),
             
             dcc.Graph(id = 'yearly_spending_graph', figure={})
         ], width = {'size':6}),
@@ -43,7 +46,7 @@ layout = dbc.Container([
         
         dbc.Col([
             dcc.Dropdown(id = 'yearly_saving_dd', multi = False, placeholder = 'Select a year',
-                        options = [{'label':x, 'value':x} for x in sorted(df.iloc[:,3].unique())]),
+                        options = [{'label':x, 'value':x} for x in sorted(dfIncoming.iloc[:,0].unique())]),
             
             dcc.Graph(id = 'yearly_saving_graph', figure={})
         ], width = {'size':6}),
@@ -53,4 +56,3 @@ layout = dbc.Container([
         
     ])
 ], fluid = False)
-

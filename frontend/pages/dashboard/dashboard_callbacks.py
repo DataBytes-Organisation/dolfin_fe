@@ -26,7 +26,7 @@ def update_graph(year):
 
 def get_transaction_data():
     api = API()
-    transaction_result = api.dashboard()
+    transaction_result = api.basiq_api_transaction_data()
     data = json.dumps(transaction_result)
     data2 = json.loads(data)
 
@@ -83,7 +83,7 @@ def get_transaction_data():
 
 def get_accounts():
     api = API()
-    transaction_result = api.dashboard()
+    transaction_result = basiq_api_transaction_data()
     data = json.dumps(transaction_result)
     data2 = json.loads(data)
     return data2
