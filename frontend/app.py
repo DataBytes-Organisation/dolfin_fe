@@ -12,7 +12,8 @@ app = dash.Dash(
     external_stylesheets=[ # List of external stylesheets
         dbc.themes.BOOTSTRAP, # Use the Bootstrap theme
         FONT_AWSOME, # Use Font Awesome
-        CUSTOM_STYLE # Use a custom stylesheet
+        CUSTOM_STYLE, # Use a custom stylesheet
+        'assets/custom.css' # use for Chatbot
     ],
     meta_tags=[ # List of meta tags to include in the HTML head
         {"name": "viewport", "content": "width=device-width, initial-scale=1, maximum-scale=1.2, minimum-scale=0.9"}
