@@ -12,6 +12,12 @@ from pages.news import news
 
 from layout.sidebar.sidebar_callbacks import toggle_collapse, toggle_classname
 
+unauthenticatedStyle={
+    "padding": 16,
+    "marginTop": 32,
+    "textAlign": "center",
+    "fontSize": 32,}
+
 @app.callback(
   Output("page-content", "children"), 
   Input("url", "pathname"),
@@ -31,7 +37,7 @@ def render_page_content(pathname, state_path):
         if pathname == news_location:
             return news.layout    
     else:
-        return dcc.Link("Oh Dear, Appears you need to Authenticate, Click this to head back to login..", href=login_location)
+        return dcc.Link("This page is only available when you are logged in. Click this to head back to login.", href=login_location, style=unauthenticatedStyle)
 
 if __name__ == "__main__":
     application.run(port=8080, debug=True, load_dotenv=True)
