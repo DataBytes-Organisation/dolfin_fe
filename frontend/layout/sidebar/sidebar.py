@@ -64,17 +64,19 @@ sidebar = html.Div(
         dbc.Collapse(
             dbc.Nav(
                 [
-                    dbc.NavLink("Login", href=login_location, active="exact", className="nav-link"),
-                    dbc.NavLink("Home", href=home_page_location, active="exact", className="nav-link"),
-                    dbc.NavLink("Dashboard", href=dashboard_location, active="exact", className="nav-link"),
-                    dbc.NavLink("Financial Breakdown", href=breakdown_location, active="exact", className="nav-link"),
-                    dbc.NavLink("News", href="/news", active="exact", className="nav-link"),
+                    dbc.NavLink("Login", href=login_location, active="exact", className="nav-link",id='login-element-to-hide'),
+                    dbc.NavLink("Home", href=home_page_location, active="exact", className="nav-link",id="home-link"),
+                    dbc.NavLink("Dashboard", href=dashboard_location, active="exact", className="nav-link",id="dash-link"),
+                    dbc.NavLink("Financial Breakdown", href=breakdown_location, active="exact", className="nav-link",id="brea-link"),
+                    dbc.NavLink("News", href=news_location, active="exact", className="nav-link",id="news-link"),
+                    dbc.NavLink("Logout", href=login_location, active="exact", className="nav-link",id='logout-element-to-hide'),
                 ],
                 vertical=True,
                 pills=True,
             ),
             id="collapse",
         ),
+    html.Div(id='dummy1'),
     ],
     id="sidebar",
 )

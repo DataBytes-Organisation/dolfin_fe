@@ -27,9 +27,9 @@ unauthenticatedStyle={
 def render_page_content(pathname, state_path):
     if pathname == login_location:
         return login.layout
-    if Auth.is_authenticated():
-        if pathname == home_page_location:
+    if pathname == home_page_location:
             return home.layout
+    if Auth.is_authenticated():
         if pathname == dashboard_location:
             return dashboard.layout
         if pathname == breakdown_location:
