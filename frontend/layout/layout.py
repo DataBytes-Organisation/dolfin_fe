@@ -10,8 +10,14 @@ content = html.Div(id="page-content", className="content-container")
 # Define the chatbox component with unique IDs
 chatbox = html.Div(
     [
-        html.Button(
-            "Chat with me!",
+        html.Div(
+            [
+                html.Img(
+                    src="assets/images/logo_small.png",
+                    className="logo-image"
+                ),
+                html.Span("Chat with me", className="chat-title")
+            ],
             id="chat-button-unique",
             className="chat-button"
         ),
@@ -33,6 +39,7 @@ chatbox = html.Div(
     ],
     className="chat-wrapper"
 )
+
 
 # Wrap the content, sidebar, chatbox, and footer inside a new div with the "page-container" class
 page_container = html.Div(

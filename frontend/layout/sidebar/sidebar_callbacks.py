@@ -1,7 +1,5 @@
 from dash.dependencies import Input, Output, State
-
 from app import app
-
 
 @app.callback(
     Output("sidebar", "className"),
@@ -13,7 +11,6 @@ def toggle_classname(n, classname):
         return "collapsed"
     return ""
 
-
 @app.callback(
     Output("collapse", "is_open"),
     [Input("navbar-toggle", "n_clicks")],
@@ -23,7 +20,6 @@ def toggle_collapse(n, is_open):
     if n:
         return not is_open
     return is_open
-
 
 @app.callback(
     [Output("chat-container-unique", "style"), Output("chat-messages-unique", "children")],
@@ -42,4 +38,3 @@ def toggle_chatbox(n_clicks, chat_container_style):
     # Add any additional logic for handling chat messages
 
     return chat_container_style, None
-
