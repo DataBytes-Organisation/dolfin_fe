@@ -6,15 +6,17 @@ import plotly
 import plotly.express as px
 import json
 
-dfff = pd.read_csv('pages/dashboard/processed_user_outgoing_transaction_data.csv')
 
 @app.callback(
     Output('piechart', 'figure'),
      Input('piechart_dd', 'value')
 )
 def update_graph(year):
+    selectedYear = year
+
     df = list_outgoing_transactions()
-    dff = dfff[dfff.iloc[:,8]==year]
+
+    dff = df.loc[df["year"]==selectedYear]
     fig_pie = px.pie(
         data_frame = dff,
         names = "category",
@@ -27,12 +29,11 @@ def update_graph(year):
 def get_transaction_data():
     api = API()
     transaction_result = api.basiq_api_transaction_data()
-    data = json.dumps(transaction_result)
-    data2 = json.loads(data)
+    data = transaction_result["data"]
 
     accounts = get_accounts()
 
-    df = pd.json_normalize(data2)
+    df = pd.json_normalize(data)
     accounts_df = pd.json_normalize(accounts)
 
     processedData = df.filter(["id", "status", "amount", "direction", "account", "class", "postDate", "subClass.title"], axis=1)
@@ -40,7 +41,7 @@ def get_transaction_data():
 
     #Renamed 'subClass.title' as 'category'. This is not the category I was looking to use but it could do the job
     processedData.rename(columns = {'subClass.title':'category'}, inplace = True)
-    return processedData
+
     #Processing the date value that is returned. It will be split from a string in to 3 arrays listed below
     year = []
     month = []
@@ -83,20 +84,25 @@ def get_transaction_data():
 
 def get_accounts():
     api = API()
-    transaction_result = basiq_api_transaction_data()
-    data = json.dumps(transaction_result)
-    data2 = json.loads(data)
-    return data2
+    account_details = api.get_accounts_for_user()
+    data = account_details["data"]
 
-def list_outgoing_transactions():
+    return data
+
+def get_outgoing_transactions():
     initial_transactions = get_transaction_data()
             
     outgoing_transactions = initial_transactions[initial_transactions.amount.astype('float64') < 0]
 
+    return outgoing_transactions
+
+
+def list_outgoing_transactions():       
+    outgoing_transactions = get_outgoing_transactions()
+
     #transforming values to absolute value to prevent the issue mentioned above
     for index, row in outgoing_transactions.iterrows():
         row["amount"] = abs(float(row["amount"]))
-        
-    monthlySpending = outgoing_transactions.groupby(['year', 'month']).sum().filter(['year', 'month', 'amount'], axis=1)
 
-    return monthlySpending
+    return outgoing_transactions
+

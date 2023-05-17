@@ -3,51 +3,36 @@ from dash.dependencies import Input, Output, State
 from app import app
 import pandas as pd
 import plotly.express as px
-
-
-#Importing calculated savings and spending models. Required data will be summed Amount spent grouped by Year and Month
-dfIncoming = pd.read_csv('pages/breakdown/monthly_saving_user.csv')
-dfOutgoing = pd.read_csv('pages/breakdown/monthly_spending_user.csv')
-
-#This can probably be done elsewhere as static data. Included to sort values by month and display properly on the graph
-ordered_months = ["Jan", "Feb", "Mar", "Apr", "May", "June",
-      "July", "Aug", "Sep", "Oct", "Nov", "Dec"]
-
-#Both incoming models are sorted by month
-dfIncoming['to_sort']=dfIncoming['month'].apply(lambda x:ordered_months.index(x))
-dfIncoming = dfIncoming.sort_values('to_sort')
-
-dfOutgoing['to_sort']=dfOutgoing['month'].apply(lambda x:ordered_months.index(x))
-dfOutgoing = dfOutgoing.sort_values('to_sort')
+import json
 
 @app.callback(
     Output('yearly_spending_graph', 'figure'),
     Input('yearly_spending_dd', 'value')
 )
 def update_graph(year):
+    dfIncoming, dfOutgoing = get_incoming_outgoing_transactions()
     dff = dfOutgoing[dfOutgoing.iloc[:,0]==year]
     figln = px.line(dff, x='month', y='amount')
     return figln
-
 
 @app.callback(
     Output('yearly_saving_graph', 'figure'),
     Input('yearly_saving_dd', 'value')
 )
 def update_graph(year):
+    dfIncoming, dfOutgoing = get_incoming_outgoing_transactions()
     dff = dfIncoming[dfIncoming.iloc[:,0]==year]
     figln = px.line(dff, x='month', y='amount')
     return figln
 
 def get_transaction_data():
     api = API()
-    transaction_result = api.basiq_api_transaction_data
-    data = json.dumps(transaction_result)
-    data2 = json.loads(data)
+    transaction_result = api.basiq_api_transaction_data()
+    data = transaction_result["data"]
 
     accounts = get_accounts()
 
-    df = pd.json_normalize(data2)
+    df = pd.json_normalize(data)
     accounts_df = pd.json_normalize(accounts)
 
     processedData = df.filter(["id", "status", "amount", "direction", "account", "class", "postDate", "subClass.title"], axis=1)
@@ -55,7 +40,7 @@ def get_transaction_data():
 
     #Renamed 'subClass.title' as 'category'. This is not the category I was looking to use but it could do the job
     processedData.rename(columns = {'subClass.title':'category'}, inplace = True)
-    return processedData
+
     #Processing the date value that is returned. It will be split from a string in to 3 arrays listed below
     year = []
     month = []
@@ -63,7 +48,6 @@ def get_transaction_data():
 
     #Account name included to give something human readable to the account id number
     accountName = []
-
     #Here I am transforming the data in the postDate and account columns. 
     for column in df[["postDate", "account"]]:
         for val in df[column]:
@@ -98,10 +82,10 @@ def get_transaction_data():
 
 def get_accounts():
     api = API()
-    transaction_result = api.basiq_api_transaction_data()
-    data = json.dumps(transaction_result)
-    data2 = json.loads(data)
-    return data2
+    account_details = api.get_accounts_for_user()
+    data = account_details["data"]
+
+    return data
 
 def get_incoming_outgoing_transactions():
     processedData = get_transaction_data()
@@ -117,11 +101,17 @@ def get_incoming_outgoing_transactions():
     for index, row in incomingTransactions.iterrows():
         row["amount"] = abs(float(row["amount"]))
 
-    monthlySpending = outgoingTransactions.groupby(['year', 'month']).sum().filter(['year', 'month', 'amount'], axis=1)
-    monthlySaving = incomingTransactions.groupby(['year', 'month']).sum().filter(['year', 'month', 'amount'], axis=1)
+    monthlySpending = outgoingTransactions.groupby(['year', 'month']).sum().reset_index().filter(['year', 'month', 'amount'], axis=1)
+    monthlySaving = incomingTransactions.groupby(['year', 'month']).sum().reset_index().filter(['year', 'month', 'amount'], axis=1)
+
+    ordered_months = ["Jan", "Feb", "Mar", "Apr", "May", "June",
+      "July", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    
+    #Both incoming models are sorted by month
+    monthlySaving['to_sort']=monthlySaving['month'].apply(lambda x:ordered_months.index(x))
+    monthlySaving = monthlySaving.sort_values('to_sort')
+
+    monthlySpending['to_sort']=monthlySpending['month'].apply(lambda x:ordered_months.index(x))
+    monthlySpending = monthlySpending.sort_values('to_sort')
 
     return monthlySaving, monthlySpending
-
-# def callback(n):
-#     api = API()
-#     return f"{n}"
