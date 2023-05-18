@@ -3,6 +3,17 @@
   padding: 10% 0%;
 }
 
+.faq-card {
+  background-color: white;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.faq-button {
+  width: 100%;
+  text-align: left;
+}
+
 .page-container {
   display: flex;
   flex-direction: column;

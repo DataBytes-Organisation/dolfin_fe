@@ -6,6 +6,7 @@ from utils.constants import login_location
 from utils.constants import dashboard_location
 from utils.constants import breakdown_location
 from utils.constants import news_location
+from utils.constants import faqs_location
 
 # we use the Row and Col components to construct the sidebar header
 # it consists of a title, and a toggle, the latter is hidden on large screens
@@ -70,6 +71,7 @@ sidebar = html.Div(
                     dbc.NavLink("Financial Breakdown", href=breakdown_location, active="exact", className="nav-link",id="brea-link"),
                     dbc.NavLink("News", href=news_location, active="exact", className="nav-link",id="news-link"),
                     dbc.NavLink("Logout", href=login_location, active="exact", className="nav-link",id='logout-element-to-hide'),
+                    dbc.NavLink("Faqs", href=faqs_location, active="exact", className="nav-link")
                 ],
                 vertical=True,
                 pills=True,
