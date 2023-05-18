@@ -6,5 +6,6 @@ login_location = "/login"
 dashboard_location="/dashboard"
 breakdown_location="/breakdown"
 news_location="/news"
+faqs_location="/faqs"
 
 TIMEOUT = 60
