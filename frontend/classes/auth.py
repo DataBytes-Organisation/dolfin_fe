@@ -36,3 +36,10 @@ class Auth:
             return cached_email, cached_token
         except Exception as e:
             return dcc.Link("Oh Dear, Appears you need to Authenticate, Click this to head back to login..", href=login_location)
+        
+    def remove_cache():
+        try:
+            cache.delete("email")
+            cache.delete("tokens")
+        except Exception as e:
+            raise Exception("Something went wrong trying to clear your cache of email and tokens")
