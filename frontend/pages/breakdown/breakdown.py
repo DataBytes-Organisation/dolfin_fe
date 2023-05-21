@@ -7,15 +7,13 @@ import pandas as pd
 from app import app
 from pages.breakdown import breakdown_callbacks
 
-
-df = pd.read_csv('pages/breakdown/dummies.csv')
+dfIncoming, dfOutgoing = breakdown_callbacks.get_incoming_outgoing_transactions()
 
 layout = dbc.Container([
     dbc.Row([
         dbc.Col(html.H1("YOUR FINANCIAL DASHBOARD",
                         className='text-center text-primary mb-4',id="title"),
-                width=12)
-        
+                width=12)   
     ]),
     
     dbc.Row([
@@ -25,7 +23,7 @@ layout = dbc.Container([
         
         dbc.Col([
             dcc.Dropdown(id = 'yearly_spending_dd', multi = False, placeholder = 'Select a year',
-                        options = [{'label':x, 'value':x} for x in sorted(df.iloc[:,3].unique())]),
+                        options = [{'label':x, 'value':x} for x in sorted(dfOutgoing.iloc[:,0].unique())]),
             
             dcc.Graph(id = 'yearly_spending_graph', figure={})
         ], width = {'size':6}),
@@ -35,7 +33,6 @@ layout = dbc.Container([
         
     ]),
     
-    
     dbc.Row([
         
         dbc.Col(html.H2("Yearly Saving",
@@ -43,7 +40,7 @@ layout = dbc.Container([
         
         dbc.Col([
             dcc.Dropdown(id = 'yearly_saving_dd', multi = False, placeholder = 'Select a year',
-                        options = [{'label':x, 'value':x} for x in sorted(df.iloc[:,3].unique())]),
+                        options = [{'label':x, 'value':x} for x in sorted(dfIncoming.iloc[:,0].unique())]),
             
             dcc.Graph(id = 'yearly_saving_graph', figure={})
         ], width = {'size':6}),
@@ -53,4 +50,3 @@ layout = dbc.Container([
         
     ])
 ], fluid = False)
-
